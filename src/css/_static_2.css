@@ -1,0 +1,6130 @@
+.bctt-click-to-tweet {
+    display: block;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #ddd;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 15px 15px 15px 30px;
+    margin-bottom: 1em;
+    margin-top: 1.75em
+}
+
+.bctt-click-to-tweet:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+.bctt-click-to-tweet .mce-content-body {
+    position: relative;
+    color: #000 !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.5em;
+    line-height: 140%;
+    font-weight: 100;
+    text-decoration: none !important;
+    text-transform: none !important;
+    word-wrap: break-word;
+    border-bottom: none !important;
+    box-shadow: none !important
+}
+
+.bctt-ctt-text a {
+    padding: 15px 0;
+    margin: 15px 0;
+    position: relative;
+    color: #000 !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 1.5em;
+    line-height: 140%;
+    font-weight: 100;
+    text-decoration: none !important;
+    text-transform: none !important;
+    word-wrap: break-word;
+    border-bottom: none !important;
+    box-shadow: none !important
+}
+
+.bctt-ctt-text a:hover {
+    text-decoration: none;
+    color: #999 !important
+}
+
+a.bctt-ctt-btn {
+    border-bottom: none !important;
+    margin: 0;
+    padding: 11px 24px 0 0;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: .7em;
+    font-weight: 700;
+    color: #999 !important;
+    float: right;
+    text-decoration: none !important;
+    box-shadow: none !important
+}
+
+.bctt-ctt-btn:hover {
+    text-decoration: none;
+    color: #666 !important
+}
+
+.cmplz-video.cmplz-iframe-styles {
+    background-color: transparent
+}
+
+.cmplz-video.cmplz-hidden {
+    visibility: hidden !important
+}
+
+.cmplz-blocked-content-notice {
+    display: none
+}
+
+.cmplz-placeholder-parent {
+    height: inherit
+}
+
+.cmplz-optin .cmplz-blocked-content-container .cmplz-blocked-content-notice,
+.cmplz-optout .cmplz-blocked-content-container .cmplz-blocked-content-notice,
+.cmplz-optin .cmplz-wp-video .cmplz-blocked-content-notice,
+.cmplz-optout .cmplz-wp-video .cmplz-blocked-content-notice {
+    display: block
+}
+
+.cmplz-blocked-content-container,
+.cmplz-wp-video {
+    animation-name: cmplz-fadein;
+    animation-duration: .6s;
+    background: #fff;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .5), 0 1px 10px 0 rgba(0, 0, 0, .15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: inherit;
+    position: relative
+}
+
+.cmplz-blocked-content-container.gmw-map-cover,
+.cmplz-wp-video.gmw-map-cover {
+    max-height: 100%;
+    position: absolute
+}
+
+.cmplz-blocked-content-container.cmplz-video-placeholder,
+.cmplz-wp-video.cmplz-video-placeholder {
+    padding-bottom: initial
+}
+
+.cmplz-blocked-content-container iframe,
+.cmplz-wp-video iframe {
+    visibility: hidden;
+    max-height: 100%;
+    border: 0 !important
+}
+
+.cmplz-blocked-content-container .cmplz-custom-accept-btn,
+.cmplz-wp-video .cmplz-custom-accept-btn {
+    white-space: normal;
+    text-transform: initial;
+    cursor: pointer;
+    position: absolute !important;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 200px;
+    font-size: 14px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-align: center;
+    z-index: 98;
+    line-height: 23px
+}
+
+.cmplz-blocked-content-container .cmplz-custom-accept-btn:focus,
+.cmplz-wp-video .cmplz-custom-accept-btn:focus {
+    border: 1px dotted #cecece
+}
+
+.cmplz-blocked-content-container .cmplz-blocked-content-notice,
+.cmplz-wp-video .cmplz-blocked-content-notice {
+    white-space: normal;
+    text-transform: initial;
+    position: absolute !important;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    font-size: 14px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-align: center;
+    z-index: 98;
+    line-height: 23px
+}
+
+.cmplz-blocked-content-container .cmplz-blocked-content-notice .cmplz-links,
+.cmplz-wp-video .cmplz-blocked-content-notice .cmplz-links {
+    display: block;
+    margin-bottom: 10px
+}
+
+.cmplz-blocked-content-container .cmplz-blocked-content-notice .cmplz-links a,
+.cmplz-wp-video .cmplz-blocked-content-notice .cmplz-links a {
+    color: #fff
+}
+
+.cmplz-blocked-content-container .cmplz-blocked-content-notice .cmplz-blocked-content-notice-body,
+.cmplz-wp-video .cmplz-blocked-content-notice .cmplz-blocked-content-notice-body {
+    display: block
+}
+
+.cmplz-blocked-content-container div div {
+    display: none
+}
+
+.cmplz-wp-video .cmplz-placeholder-element {
+    width: 100%;
+    height: inherit
+}
+
+@keyframes cmplz-fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.weglot-flags.hw>a:before,
+.weglot-flags.hw>span:before {
+    background-position: -3570px 0 !important
+}
+
+.weglot-flags.af>a:before,
+.weglot-flags.af>span:before {
+    background-position: -6570px 0 !important
+}
+
+.weglot-flags.fl>a:before,
+.weglot-flags.fl>span:before {
+    background-position: -3060px 0 !important
+}
+
+.weglot-flags.sq>a:before,
+.weglot-flags.sq>span:before {
+    background-position: -2580px 0 !important
+}
+
+.weglot-flags.am>a:before,
+.weglot-flags.am>span:before {
+    background-position: -5130px 0 !important
+}
+
+.weglot-flags.ar>a:before,
+.weglot-flags.ar>span:before {
+    background-position: -510px 0 !important
+}
+
+.weglot-flags.hy>a:before,
+.weglot-flags.hy>span:before {
+    background-position: -1800px 0 !important
+}
+
+.weglot-flags.az>a:before,
+.weglot-flags.az>span:before {
+    background-position: -6840px 0 !important
+}
+
+.weglot-flags.ba>a:before,
+.weglot-flags.ba>span:before {
+    background-position: -2040px 0 !important
+}
+
+.weglot-flags.eu>a:before,
+.weglot-flags.eu>span:before {
+    background-position: -7260px 0 !important
+}
+
+.weglot-flags.be>a:before,
+.weglot-flags.be>span:before {
+    background-position: -5310px 0 !important
+}
+
+.weglot-flags.bn>a:before,
+.weglot-flags.bn>span:before {
+    background-position: -5400px 0 !important
+}
+
+.weglot-flags.bs>a:before,
+.weglot-flags.bs>span:before {
+    background-position: -6390px 0 !important
+}
+
+.weglot-flags.bg>a:before,
+.weglot-flags.bg>span:before {
+    background-position: -2730px 0 !important
+}
+
+.weglot-flags.br>a:before,
+.weglot-flags.br>span:before {
+    background-position: -6630px 0 !important
+}
+
+.weglot-flags.my>a:before,
+.weglot-flags.my>span:before {
+    background-position: -3299px 0 !important
+}
+
+.weglot-flags.ca>a:before,
+.weglot-flags.ca>span:before {
+    background-position: -7230px 0 !important
+}
+
+.weglot-flags.zh>a:before,
+.weglot-flags.zh>span:before {
+    background-position: -3690px 0 !important
+}
+
+.weglot-flags.tw>a:before,
+.weglot-flags.tw>span:before {
+    background-position: -2970px 0 !important
+}
+
+.weglot-flags.km>a:before,
+.weglot-flags.km>span:before {
+    background-position: -6930px 0 !important
+}
+
+.weglot-flags.ny>a:before,
+.weglot-flags.ny>span:before {
+    background-position: -1140px 0 !important
+}
+
+.weglot-flags.co>a:before,
+.weglot-flags.co>span:before {
+    background-position: -2520px 0 !important
+}
+
+.weglot-flags.hr>a:before,
+.weglot-flags.hr>span:before {
+    background-position: -5910px 0 !important
+}
+
+.weglot-flags.cs>a:before,
+.weglot-flags.cs>span:before {
+    background-position: -2700px 0 !important
+}
+
+.weglot-flags.da>a:before,
+.weglot-flags.da>span:before {
+    background-position: -2670px 0 !important
+}
+
+.weglot-flags.nl>a:before,
+.weglot-flags.nl>span:before {
+    background-position: -2100px 0 !important
+}
+
+.weglot-flags.en>a:before,
+.weglot-flags.en>span:before {
+    background-position: -1920px 0 !important
+}
+
+.weglot-flags.eo>a:before,
+.weglot-flags.eo>span:before {
+    background-position: -1920px 0 !important
+}
+
+.weglot-flags.et>a:before,
+.weglot-flags.et>span:before {
+    background-position: -2640px 0 !important
+}
+
+.weglot-flags.fj>a:before,
+.weglot-flags.fj>span:before {
+    background-position: -1710px 0 !important
+}
+
+.weglot-flags.fi>a:before,
+.weglot-flags.fi>span:before {
+    background-position: -2550px 0 !important
+}
+
+.weglot-flags.fr>a:before,
+.weglot-flags.fr>span:before {
+    background-position: -2520px 0 !important
+}
+
+.weglot-flags.gl>a:before,
+.weglot-flags.gl>span:before {
+    background-position: -7290px 0 !important
+}
+
+.weglot-flags.ka>a:before,
+.weglot-flags.ka>span:before {
+    background-position: -5040px 0 !important
+}
+
+.weglot-flags.de>a:before,
+.weglot-flags.de>span:before {
+    background-position: -2490px 0 !important
+}
+
+.weglot-flags.el>a:before,
+.weglot-flags.el>span:before {
+    background-position: -2460px 0 !important
+}
+
+.weglot-flags.gu>a:before,
+.weglot-flags.gu>span:before {
+    background-position: -1170px 0 !important
+}
+
+.weglot-flags.ht>a:before,
+.weglot-flags.ht>span:before {
+    background-position: -4650px 0 !important
+}
+
+.weglot-flags.ha>a:before,
+.weglot-flags.ha>span:before {
+    background-position: -900px 0 !important
+}
+
+.weglot-flags.he>a:before,
+.weglot-flags.he>span:before {
+    background-position: -1050px 0 !important
+}
+
+.weglot-flags.hi>a:before,
+.weglot-flags.hi>span:before {
+    background-position: -1170px 0 !important
+}
+
+.weglot-flags.hu>a:before,
+.weglot-flags.hu>span:before {
+    background-position: -2430px 0 !important
+}
+
+.weglot-flags.is>a:before,
+.weglot-flags.is>span:before {
+    background-position: -2400px 0 !important
+}
+
+.weglot-flags.ig>a:before,
+.weglot-flags.ig>span:before {
+    background-position: -870px 0 !important
+}
+
+.weglot-flags.id>a:before,
+.weglot-flags.id>span:before {
+    background-position: -3510px 0 !important
+}
+
+.weglot-flags.ga>a:before,
+.weglot-flags.ga>span:before {
+    background-position: -2340px 0 !important
+}
+
+.weglot-flags.it>a:before,
+.weglot-flags.it>span:before {
+    background-position: -2310px 0 !important
+}
+
+.weglot-flags.ja>a:before,
+.weglot-flags.ja>span:before {
+    background-position: -3480px 0 !important
+}
+
+.weglot-flags.jv>a:before,
+.weglot-flags.jv>span:before {
+    background-position: -3360px 0 !important
+}
+
+.weglot-flags.kn>a:before,
+.weglot-flags.kn>span:before {
+    background-position: -1170px 0 !important
+}
+
+.weglot-flags.kk>a:before,
+.weglot-flags.kk>span:before {
+    background-position: -3150px 0 !important
+}
+
+.weglot-flags.ko>a:before,
+.weglot-flags.ko>span:before {
+    background-position: -6990px 0 !important
+}
+
+.weglot-flags.ku>a:before,
+.weglot-flags.ku>span:before {
+    background-position: -2430px 0 !important
+}
+
+.weglot-flags.ky>a:before,
+.weglot-flags.ky>span:before {
+    background-position: -3420px 0 !important
+}
+
+.weglot-flags.lo>a:before,
+.weglot-flags.lo>span:before {
+    background-position: -3450px 0 !important
+}
+
+.weglot-flags.la>a:before,
+.weglot-flags.la>span:before {
+    background-position: -2310px 0 !important
+}
+
+.weglot-flags.lv>a:before,
+.weglot-flags.lv>span:before {
+    background-position: -2280px 0 !important
+}
+
+.weglot-flags.lt>a:before,
+.weglot-flags.lt>span:before {
+    background-position: -2250px 0 !important
+}
+
+.weglot-flags.lb>a:before,
+.weglot-flags.lb>span:before {
+    background-position: -2220px 0 !important
+}
+
+.weglot-flags.mk>a:before,
+.weglot-flags.mk>span:before {
+    background-position: -2190px 0 !important
+}
+
+.weglot-flags.mg>a:before,
+.weglot-flags.mg>span:before {
+    background-position: -1200px 0 !important
+}
+
+.weglot-flags.ms>a:before,
+.weglot-flags.ms>span:before {
+    background-position: -3360px 0 !important
+}
+
+.weglot-flags.ml>a:before,
+.weglot-flags.ml>span:before {
+    background-position: -1170px 0 !important
+}
+
+.weglot-flags.mt>a:before,
+.weglot-flags.mt>span:before {
+    background-position: -2130px 0 !important
+}
+
+.weglot-flags.mi>a:before,
+.weglot-flags.mi>span:before {
+    background-position: -3240px 0 !important
+}
+
+.weglot-flags.mr>a:before,
+.weglot-flags.mr>span:before {
+    background-position: -1170px 0 !important
+}
+
+.weglot-flags.mn>a:before,
+.weglot-flags.mn>span:before {
+    background-position: -6000px 0 !important
+}
+
+.weglot-flags.ne>a:before,
+.weglot-flags.ne>span:before {
+    background-position: -3270px 0 !important
+}
+
+.weglot-flags.no>a:before,
+.weglot-flags.no>span:before {
+    background-position: -5850px 0 !important
+}
+
+.weglot-flags.ps>a:before,
+.weglot-flags.ps>span:before {
+    background-position: -5189px 0 !important
+}
+
+.weglot-flags.fa>a:before,
+.weglot-flags.fa>span:before {
+    background-position: -6690px 0 !important
+}
+
+.weglot-flags.pl>a:before,
+.weglot-flags.pl>span:before {
+    background-position: -2160px 0 !important
+}
+
+.weglot-flags.pt>a:before,
+.weglot-flags.pt>span:before {
+    background-position: -1740px 0 !important
+}
+
+.weglot-flags.pa>a:before,
+.weglot-flags.pa>span:before {
+    background-position: -3180px 0 !important
+}
+
+.weglot-flags.ro>a:before,
+.weglot-flags.ro>span:before {
+    background-position: -2070px 0 !important
+}
+
+.weglot-flags.ru>a:before,
+.weglot-flags.ru>span:before {
+    background-position: -2040px 0 !important
+}
+
+.weglot-flags.sm>a:before,
+.weglot-flags.sm>span:before {
+    background-position: -4620px 0 !important
+}
+
+.weglot-flags.gd>a:before,
+.weglot-flags.gd>span:before {
+    background-position: -30px 0 !important
+}
+
+.weglot-flags.sr>a:before,
+.weglot-flags.sr>span:before {
+    background-position: -4290px 0 !important
+}
+
+.weglot-flags.sn>a:before,
+.weglot-flags.sn>span:before {
+    background-position: -540px 0 !important
+}
+
+.weglot-flags.sd>a:before,
+.weglot-flags.sd>span:before {
+    background-position: -3180px 0 !important
+}
+
+.weglot-flags.si>a:before,
+.weglot-flags.si>span:before {
+    background-position: -2820px 0 !important
+}
+
+.weglot-flags.sk>a:before,
+.weglot-flags.sk>span:before {
+    background-position: -6810px 0 !important
+}
+
+.weglot-flags.sl>a:before,
+.weglot-flags.sl>span:before {
+    background-position: -2010px 0 !important
+}
+
+.weglot-flags.so>a:before,
+.weglot-flags.so>span:before {
+    background-position: -4560px 0 !important
+}
+
+.weglot-flags.st>a:before,
+.weglot-flags.st>span:before {
+    background-position: -4830px 0 !important
+}
+
+.weglot-flags.es>a:before,
+.weglot-flags.es>span:before {
+    background-position: -480px 0 !important
+}
+
+.weglot-flags.su>a:before,
+.weglot-flags.su>span:before {
+    background-position: -4530px 0 !important
+}
+
+.weglot-flags.sw>a:before,
+.weglot-flags.sw>span:before {
+    background-position: -1290px 0 !important
+}
+
+.weglot-flags.sv>a:before,
+.weglot-flags.sv>span:before {
+    background-position: -1980px 0 !important
+}
+
+.weglot-flags.tl>a:before,
+.weglot-flags.tl>span:before {
+    background-position: -3060px 0 !important
+}
+
+.weglot-flags.ty>a:before,
+.weglot-flags.ty>span:before {
+    background-position: -6270px 0 !important
+}
+
+.weglot-flags.tg>a:before,
+.weglot-flags.tg>span:before {
+    background-position: -2940px 0 !important
+}
+
+.weglot-flags.ta>a:before,
+.weglot-flags.ta>span:before {
+    background-position: -1170px 0 !important
+}
+
+.weglot-flags.tt>a:before,
+.weglot-flags.tt>span:before {
+    background-position: -2040px 0 !important
+}
+
+.weglot-flags.te>a:before,
+.weglot-flags.te>span:before {
+    background-position: -1170px 0 !important
+}
+
+.weglot-flags.th>a:before,
+.weglot-flags.th>span:before {
+    background-position: -2910px 0 !important
+}
+
+.weglot-flags.to>a:before,
+.weglot-flags.to>span:before {
+    background-position: -6540px 0 !important
+}
+
+.weglot-flags.tr>a:before,
+.weglot-flags.tr>span:before {
+    background-position: -1950px 0 !important
+}
+
+.weglot-flags.uk>a:before,
+.weglot-flags.uk>span:before {
+    background-position: -1890px 0 !important
+}
+
+.weglot-flags.ur>a:before,
+.weglot-flags.ur>span:before {
+    background-position: -3180px 0 !important
+}
+
+.weglot-flags.uz>a:before,
+.weglot-flags.uz>span:before {
+    background-position: -2880px 0 !important
+}
+
+.weglot-flags.vi>a:before,
+.weglot-flags.vi>span:before {
+    background-position: -2850px 0 !important
+}
+
+.weglot-flags.cy>a:before,
+.weglot-flags.cy>span:before {
+    background-position: -6420px 0 !important
+}
+
+.weglot-flags.fy>a:before,
+.weglot-flags.fy>span:before {
+    background-position: -2100px 0 !important
+}
+
+.weglot-flags.xh>a:before,
+.weglot-flags.xh>span:before {
+    background-position: -6570px 0 !important
+}
+
+.weglot-flags.yi>a:before,
+.weglot-flags.yi>span:before {
+    background-position: -1050px 0 !important
+}
+
+.weglot-flags.yo>a:before,
+.weglot-flags.yo>span:before {
+    background-position: -870px 0 !important
+}
+
+.weglot-flags.zu>a:before,
+.weglot-flags.zu>span:before {
+    background-position: -6570px 0 !important
+}
+
+.weglot-flags.flag-1.hw>a:before,
+.weglot-flags.flag-1.hw>span:before {
+    background-position: -7840px 0 !important
+}
+
+.weglot-flags.flag-1.fl>a:before,
+.weglot-flags.flag-1.fl>span:before {
+    background-position: 2560px 0 !important
+}
+
+.weglot-flags.flag-1.af>a:before,
+.weglot-flags.flag-1.af>span:before {
+    background-position: -6848px 0 !important
+}
+
+.weglot-flags.flag-1.sq>a:before,
+.weglot-flags.flag-1.sq>span:before {
+    background-position: -97px 0 !important
+}
+
+.weglot-flags.flag-1.am>a:before,
+.weglot-flags.flag-1.am>span:before {
+    background-position: -2369px 0 !important
+}
+
+.weglot-flags.flag-1.ar>a:before,
+.weglot-flags.flag-1.ar>span:before {
+    background-position: -6465px 0 !important
+}
+
+.weglot-flags.flag-1.hy>a:before,
+.weglot-flags.flag-1.hy>span:before {
+    background-position: -385px 0 !important
+}
+
+.weglot-flags.flag-1.az>a:before,
+.weglot-flags.flag-1.az>span:before {
+    background-position: -513px 0 !important
+}
+
+.weglot-flags.flag-1.ba>a:before,
+.weglot-flags.flag-1.ba>span:before {
+    background-position: -6113px 0 !important
+}
+
+.weglot-flags.flag-1.eu>a:before,
+.weglot-flags.flag-1.eu>span:before {
+    background-position: -8353px 0 !important
+}
+
+.weglot-flags.flag-1.be>a:before,
+.weglot-flags.flag-1.be>span:before {
+    background-position: -705px 0 !important
+}
+
+.weglot-flags.flag-1.bn>a:before,
+.weglot-flags.flag-1.bn>span:before {
+    background-position: -609px 0 !important
+}
+
+.weglot-flags.flag-1.bs>a:before,
+.weglot-flags.flag-1.bs>span:before {
+    background-position: -929px 0 !important
+}
+
+.weglot-flags.flag-1.bg>a:before,
+.weglot-flags.flag-1.bg>span:before {
+    background-position: -1121px 0 !important
+}
+
+.weglot-flags.flag-1.br>a:before,
+.weglot-flags.flag-1.br>span:before {
+    background-position: -993px 0 !important
+}
+
+.weglot-flags.flag-1.my>a:before,
+.weglot-flags.flag-1.my>span:before {
+    background-position: -4929px 0 !important
+}
+
+.weglot-flags.flag-1.ca>a:before,
+.weglot-flags.flag-1.ca>span:before {
+    background-position: -8321px 0 !important
+}
+
+.weglot-flags.flag-1.zh>a:before,
+.weglot-flags.flag-1.zh>span:before {
+    background-position: -1505px 0 !important
+}
+
+.weglot-flags.flag-1.tw>a:before,
+.weglot-flags.flag-1.tw>span:before {
+    background-position: -6369px 0 !important
+}
+
+.weglot-flags.flag-1.km>a:before,
+.weglot-flags.flag-1.km>span:before {
+    background-position: -1217px 0 !important
+}
+
+.weglot-flags.flag-1.ny>a:before,
+.weglot-flags.flag-1.ny>span:before {
+    background-position: -4289px 0 !important
+}
+
+.weglot-flags.flag-1.co>a:before,
+.weglot-flags.flag-1.co>span:before {
+    background-position: -2561px 0 !important
+}
+
+.weglot-flags.flag-1.hr>a:before,
+.weglot-flags.flag-1.hr>span:before {
+    background-position: -1793px 0 !important
+}
+
+.weglot-flags.flag-1.cs>a:before,
+.weglot-flags.flag-1.cs>span:before {
+    background-position: -1921px 0 !important
+}
+
+.weglot-flags.flag-1.da>a:before,
+.weglot-flags.flag-1.da>span:before {
+    background-position: -1985px 0 !important
+}
+
+.weglot-flags.flag-1.nl>a:before,
+.weglot-flags.flag-1.nl>span:before {
+    background-position: -5121px 0 !important
+}
+
+.weglot-flags.flag-1.en>a:before,
+.weglot-flags.flag-1.en>span:before {
+    background-position: -7777px 0 !important
+}
+
+.weglot-flags.flag-1.eo>a:before,
+.weglot-flags.flag-1.eo>span:before {
+    background-position: -7777px 0 !important
+}
+
+.weglot-flags.flag-1.et>a:before,
+.weglot-flags.flag-1.et>span:before {
+    background-position: -2337px 0 !important
+}
+
+.weglot-flags.flag-1.fj>a:before,
+.weglot-flags.flag-1.fj>span:before {
+    background-position: -2497px 0 !important
+}
+
+.weglot-flags.flag-1.fi>a:before,
+.weglot-flags.flag-1.fi>span:before {
+    background-position: -2529px 0 !important
+}
+
+.weglot-flags.flag-1.fr>a:before,
+.weglot-flags.flag-1.fr>span:before {
+    background-position: -2561px 0 !important
+}
+
+.weglot-flags.flag-1.gl>a:before,
+.weglot-flags.flag-1.gl>span:before {
+    background-position: -8383px 0 !important
+}
+
+.weglot-flags.flag-1.ka>a:before,
+.weglot-flags.flag-1.ka>span:before {
+    background-position: -2721px 0 !important
+}
+
+.weglot-flags.flag-1.de>a:before,
+.weglot-flags.flag-1.de>span:before {
+    background-position: -2753px 0 !important
+}
+
+.weglot-flags.flag-1.el>a:before,
+.weglot-flags.flag-1.el>span:before {
+    background-position: -2881px 0 !important
+}
+
+.weglot-flags.flag-1.gu>a:before,
+.weglot-flags.flag-1.gu>span:before {
+    background-position: -3329px 0 !important
+}
+
+.weglot-flags.flag-1.ht>a:before,
+.weglot-flags.flag-1.ht>span:before {
+    background-position: -3169px 0 !important
+}
+
+.weglot-flags.flag-1.ha>a:before,
+.weglot-flags.flag-1.ha>span:before {
+    background-position: -5281px 0 !important
+}
+
+.weglot-flags.flag-1.he>a:before,
+.weglot-flags.flag-1.he>span:before {
+    background-position: -3521px 0 !important
+}
+
+.weglot-flags.flag-1.hi>a:before,
+.weglot-flags.flag-1.hi>span:before {
+    background-position: -3329px 0 !important
+}
+
+.weglot-flags.flag-1.hu>a:before,
+.weglot-flags.flag-1.hu>span:before {
+    background-position: -3265px 0 !important
+}
+
+.weglot-flags.flag-1.is>a:before,
+.weglot-flags.flag-1.is>span:before {
+    background-position: -3297px 0 !important
+}
+
+.weglot-flags.flag-1.ig>a:before,
+.weglot-flags.flag-1.ig>span:before {
+    background-position: -5313px 0 !important
+}
+
+.weglot-flags.flag-1.id>a:before,
+.weglot-flags.flag-1.id>span:before {
+    background-position: -3361px 0 !important
+}
+
+.weglot-flags.flag-1.ga>a:before,
+.weglot-flags.flag-1.ga>span:before {
+    background-position: -3457px 0 !important
+}
+
+.weglot-flags.flag-1.it>a:before,
+.weglot-flags.flag-1.it>span:before {
+    background-position: -3553px 0 !important
+}
+
+.weglot-flags.flag-1.ja>a:before,
+.weglot-flags.flag-1.ja>span:before {
+    background-position: -3617px 0 !important
+}
+
+.weglot-flags.flag-1.jv>a:before,
+.weglot-flags.flag-1.jv>span:before {
+    background-position: -4321px 0 !important
+}
+
+.weglot-flags.flag-1.kn>a:before,
+.weglot-flags.flag-1.kn>span:before {
+    background-position: -3329px 0 !important
+}
+
+.weglot-flags.flag-1.kk>a:before,
+.weglot-flags.flag-1.kk>span:before {
+    background-position: -3713px 0 !important
+}
+
+.weglot-flags.flag-1.ko>a:before,
+.weglot-flags.flag-1.ko>span:before {
+    background-position: -6913px 0 !important
+}
+
+.weglot-flags.flag-1.ku>a:before,
+.weglot-flags.flag-1.ku>span:before {
+    background-position: -3265px 0 !important
+}
+
+.weglot-flags.flag-1.ky>a:before,
+.weglot-flags.flag-1.ky>span:before {
+    background-position: -3873px 0 !important
+}
+
+.weglot-flags.flag-1.lo>a:before,
+.weglot-flags.flag-1.lo>span:before {
+    background-position: -3904px 0 !important
+}
+
+.weglot-flags.flag-1.la>a:before,
+.weglot-flags.flag-1.la>span:before {
+    background-position: -3553px 0 !important
+}
+
+.weglot-flags.flag-1.lv>a:before,
+.weglot-flags.flag-1.lv>span:before {
+    background-position: -3937px 0 !important
+}
+
+.weglot-flags.flag-1.lt>a:before,
+.weglot-flags.flag-1.lt>span:before {
+    background-position: -4129px 0 !important
+}
+
+.weglot-flags.flag-1.lb>a:before,
+.weglot-flags.flag-1.lb>span:before {
+    background-position: -4161px 0 !important
+}
+
+.weglot-flags.flag-1.mk>a:before,
+.weglot-flags.flag-1.mk>span:before {
+    background-position: -4225px 0 !important
+}
+
+.weglot-flags.flag-1.mg>a:before,
+.weglot-flags.flag-1.mg>span:before {
+    background-position: -4257px 0 !important
+}
+
+.weglot-flags.flag-1.ms>a:before,
+.weglot-flags.flag-1.ms>span:before {
+    background-position: -4321px 0 !important
+}
+
+.weglot-flags.flag-1.ml>a:before,
+.weglot-flags.flag-1.ml>span:before {
+    background-position: -3329px 0 !important
+}
+
+.weglot-flags.flag-1.mt>a:before,
+.weglot-flags.flag-1.mt>span:before {
+    background-position: -4417px 0 !important
+}
+
+.weglot-flags.flag-1.mi>a:before,
+.weglot-flags.flag-1.mi>span:before {
+    background-position: -5217px 0 !important
+}
+
+.weglot-flags.flag-1.mr>a:before,
+.weglot-flags.flag-1.mr>span:before {
+    background-position: -3329px 0 !important
+}
+
+.weglot-flags.flag-1.mn>a:before,
+.weglot-flags.flag-1.mn>span:before {
+    background-position: -4769px 0 !important
+}
+
+.weglot-flags.flag-1.ne>a:before,
+.weglot-flags.flag-1.ne>span:before {
+    background-position: -5091px 0 !important
+}
+
+.weglot-flags.flag-1.no>a:before,
+.weglot-flags.flag-1.no>span:before {
+    background-position: -5505px 0 !important
+}
+
+.weglot-flags.flag-1.ps>a:before,
+.weglot-flags.flag-1.ps>span:before {
+    background-position: -33px 0 !important
+}
+
+.weglot-flags.flag-1.fa>a:before,
+.weglot-flags.flag-1.fa>span:before {
+    background-position: -3393px 0 !important
+}
+
+.weglot-flags.flag-1.pl>a:before,
+.weglot-flags.flag-1.pl>span:before {
+    background-position: -5889px 0 !important
+}
+
+.weglot-flags.flag-1.pt>a:before,
+.weglot-flags.flag-1.pt>span:before {
+    background-position: -5921px 0 !important
+}
+
+.weglot-flags.flag-1.pa>a:before,
+.weglot-flags.flag-1.pa>span:before {
+    background-position: -3329px 0 !important
+}
+
+.weglot-flags.flag-1.ro>a:before,
+.weglot-flags.flag-1.ro>span:before {
+    background-position: -6081px 0 !important
+}
+
+.weglot-flags.flag-1.ru>a:before,
+.weglot-flags.flag-1.ru>span:before {
+    background-position: -6113px 0 !important
+}
+
+.weglot-flags.flag-1.sm>a:before,
+.weglot-flags.flag-1.sm>span:before {
+    background-position: -6369px 0 !important
+}
+
+.weglot-flags.flag-1.gd>a:before,
+.weglot-flags.flag-1.gd>span:before {
+    background-position: -6497px 0 !important
+}
+
+.weglot-flags.flag-1.sr>a:before,
+.weglot-flags.flag-1.sr>span:before {
+    background-position: -6561px 0 !important
+}
+
+.weglot-flags.flag-1.sn>a:before,
+.weglot-flags.flag-1.sn>span:before {
+    background-position: -8287px 0 !important
+}
+
+.weglot-flags.flag-1.sd>a:before,
+.weglot-flags.flag-1.sd>span:before {
+    background-position: -5601px 0 !important
+}
+
+.weglot-flags.flag-1.si>a:before,
+.weglot-flags.flag-1.si>span:before {
+    background-position: -7039px 0 !important
+}
+
+.weglot-flags.flag-1.sk>a:before,
+.weglot-flags.flag-1.sk>span:before {
+    background-position: -6689px 0 !important
+}
+
+.weglot-flags.flag-1.sl>a:before,
+.weglot-flags.flag-1.sl>span:before {
+    background-position: -6721px 0 !important
+}
+
+.weglot-flags.flag-1.so>a:before,
+.weglot-flags.flag-1.so>span:before {
+    background-position: -6785px 0 !important
+}
+
+.weglot-flags.flag-1.st>a:before,
+.weglot-flags.flag-1.st>span:before {
+    background-position: -4001px 0 !important
+}
+
+.weglot-flags.flag-1.es>a:before,
+.weglot-flags.flag-1.es>span:before {
+    background-position: -7009px 0 !important
+}
+
+.weglot-flags.flag-1.su>a:before,
+.weglot-flags.flag-1.su>span:before {
+    background-position: -7073px 0 !important
+}
+
+.weglot-flags.flag-1.sw>a:before,
+.weglot-flags.flag-1.sw>span:before {
+    background-position: -3745px 0 !important
+}
+
+.weglot-flags.flag-1.sv>a:before,
+.weglot-flags.flag-1.sv>span:before {
+    background-position: -7169px 0 !important
+}
+
+.weglot-flags.flag-1.tl>a:before,
+.weglot-flags.flag-1.tl>span:before {
+    background-position: -5823px 0 !important
+}
+
+.weglot-flags.flag-1.ty>a:before,
+.weglot-flags.flag-1.ty>span:before {
+    background-position: -2593px 0 !important
+}
+
+.weglot-flags.flag-1.tg>a:before,
+.weglot-flags.flag-1.tg>span:before {
+    background-position: -7297px 0 !important
+}
+
+.weglot-flags.flag-1.ta>a:before,
+.weglot-flags.flag-1.ta>span:before {
+    background-position: -3329px 0 !important
+}
+
+.weglot-flags.flag-1.tt>a:before,
+.weglot-flags.flag-1.tt>span:before {
+    background-position: -6113px 0 !important
+}
+
+.weglot-flags.flag-1.te>a:before,
+.weglot-flags.flag-1.te>span:before {
+    background-position: -3329px 0 !important
+}
+
+.weglot-flags.flag-1.th>a:before,
+.weglot-flags.flag-1.th>span:before {
+    background-position: -7361px 0 !important
+}
+
+.weglot-flags.flag-1.to>a:before,
+.weglot-flags.flag-1.to>span:before {
+    background-position: -7456px 0 !important
+}
+
+.weglot-flags.flag-1.tr>a:before,
+.weglot-flags.flag-1.tr>span:before {
+    background-position: -7553px 0 !important
+}
+
+.weglot-flags.flag-1.uk>a:before,
+.weglot-flags.flag-1.uk>span:before {
+    background-position: -7713px 0 !important
+}
+
+.weglot-flags.flag-1.ur>a:before,
+.weglot-flags.flag-1.ur>span:before {
+    background-position: -5600px 0 !important
+}
+
+.weglot-flags.flag-1.uz>a:before,
+.weglot-flags.flag-1.uz>span:before {
+    background-position: -7969px 0 !important
+}
+
+.weglot-flags.flag-1.vi>a:before,
+.weglot-flags.flag-1.vi>span:before {
+    background-position: -8097px 0 !important
+}
+
+.weglot-flags.flag-1.cy>a:before,
+.weglot-flags.flag-1.cy>span:before {
+    background-position: -8129px 0 !important
+}
+
+.weglot-flags.flag-1.fy>a:before,
+.weglot-flags.flag-1.fy>span:before {
+    background-position: -5121px 0 !important
+}
+
+.weglot-flags.flag-1.xh>a:before,
+.weglot-flags.flag-1.xh>span:before {
+    background-position: -6848px 0 !important
+}
+
+.weglot-flags.flag-1.yi>a:before,
+.weglot-flags.flag-1.yi>span:before {
+    background-position: -3521px 0 !important
+}
+
+.weglot-flags.flag-1.yo>a:before,
+.weglot-flags.flag-1.yo>span:before {
+    background-position: -5313px 0 !important
+}
+
+.weglot-flags.flag-1.zu>a:before,
+.weglot-flags.flag-1.zu>span:before {
+    background-position: -6848px 0 !important
+}
+
+.weglot-flags.flag-2.hw>a:before,
+.weglot-flags.flag-2.hw>span:before {
+    background-position: -5448px 0 !important
+}
+
+.weglot-flags.flag-2.fl>a:before,
+.weglot-flags.flag-2.fl>span:before {
+    background-position: -1008px 0 !important
+}
+
+.weglot-flags.flag-2.af>a:before,
+.weglot-flags.flag-2.af>span:before {
+    background-position: -4968px 0 !important
+}
+
+.weglot-flags.flag-2.sq>a:before,
+.weglot-flags.flag-2.sq>span:before {
+    background-position: -2976px 0 !important
+}
+
+.weglot-flags.flag-2.am>a:before,
+.weglot-flags.flag-2.am>span:before {
+    background-position: -3816px 0 !important
+}
+
+.weglot-flags.flag-2.ar>a:before,
+.weglot-flags.flag-2.ar>span:before {
+    background-position: -768px 0 !important
+}
+
+.weglot-flags.flag-2.hy>a:before,
+.weglot-flags.flag-2.hy>span:before {
+    background-position: 0 0 !important
+}
+
+.weglot-flags.flag-2.az>a:before,
+.weglot-flags.flag-2.az>span:before {
+    background-position: -5136px 0 !important
+}
+
+.weglot-flags.flag-2.ba>a:before,
+.weglot-flags.flag-2.ba>span:before {
+    background-position: -936px 0 !important
+}
+
+.weglot-flags.flag-2.eu>a:before,
+.weglot-flags.flag-2.eu>span:before {
+    background-position: -5376px 0 !important
+}
+
+.weglot-flags.flag-2.be>a:before,
+.weglot-flags.flag-2.be>span:before {
+    background-position: -4224px 0 !important
+}
+
+.weglot-flags.flag-2.bn>a:before,
+.weglot-flags.flag-2.bn>span:before {
+    background-position: -4056px 0 !important
+}
+
+.weglot-flags.flag-2.bs>a:before,
+.weglot-flags.flag-2.bs>span:before {
+    background-position: -3984px 0 !important
+}
+
+.weglot-flags.flag-2.bg>a:before,
+.weglot-flags.flag-2.bg>span:before {
+    background-position: -5040px 0 !important
+}
+
+.weglot-flags.flag-2.br>a:before,
+.weglot-flags.flag-2.br>span:before {
+    background-position: -2784px 0 !important
+}
+
+.weglot-flags.flag-2.my>a:before,
+.weglot-flags.flag-2.my>span:before {
+    background-position: -1248px 0 !important
+}
+
+.weglot-flags.flag-2.ca>a:before,
+.weglot-flags.flag-2.ca>span:before {
+    background-position: -5352px 0 !important
+}
+
+.weglot-flags.flag-2.zh>a:before,
+.weglot-flags.flag-2.zh>span:before {
+    background-position: -2592px 0 !important
+}
+
+.weglot-flags.flag-2.tw>a:before,
+.weglot-flags.flag-2.tw>span:before {
+    background-position: -3408px 0 !important
+}
+
+.weglot-flags.flag-2.km>a:before,
+.weglot-flags.flag-2.km>span:before {
+    background-position: -5160px 0 !important
+}
+
+.weglot-flags.flag-2.ny>a:before,
+.weglot-flags.flag-2.ny>span:before {
+    background-position: -1392px 0 !important
+}
+
+.weglot-flags.flag-2.co>a:before,
+.weglot-flags.flag-2.co>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-2.hr>a:before,
+.weglot-flags.flag-2.hr>span:before {
+    background-position: -4416px 0 !important
+}
+
+.weglot-flags.flag-2.cs>a:before,
+.weglot-flags.flag-2.cs>span:before {
+    background-position: -2472px 0 !important
+}
+
+.weglot-flags.flag-2.da>a:before,
+.weglot-flags.flag-2.da>span:before {
+    background-position: -2448px 0 !important
+}
+
+.weglot-flags.flag-2.nl>a:before,
+.weglot-flags.flag-2.nl>span:before {
+    background-position: -1296px 0 !important
+}
+
+.weglot-flags.flag-2.en>a:before,
+.weglot-flags.flag-2.en>span:before {
+    background-position: -312px 0 !important
+}
+
+.weglot-flags.flag-2.eo>a:before,
+.weglot-flags.flag-2.eo>span:before {
+    background-position: -312px 0 !important
+}
+
+.weglot-flags.flag-2.et>a:before,
+.weglot-flags.flag-2.et>span:before {
+    background-position: -2424px 0 !important
+}
+
+.weglot-flags.flag-2.fj>a:before,
+.weglot-flags.flag-2.fj>span:before {
+    background-position: -576px 0 !important
+}
+
+.weglot-flags.flag-2.fi>a:before,
+.weglot-flags.flag-2.fi>span:before {
+    background-position: -2328px 0 !important
+}
+
+.weglot-flags.flag-2.fr>a:before,
+.weglot-flags.flag-2.fr>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-2.gl>a:before,
+.weglot-flags.flag-2.gl>span:before {
+    background-position: -5400px 0 !important
+}
+
+.weglot-flags.flag-2.ka>a:before,
+.weglot-flags.flag-2.ka>span:before {
+    background-position: -3744px 0 !important
+}
+
+.weglot-flags.flag-2.de>a:before,
+.weglot-flags.flag-2.de>span:before {
+    background-position: -2256px 0 !important
+}
+
+.weglot-flags.flag-2.el>a:before,
+.weglot-flags.flag-2.el>span:before {
+    background-position: -2208px 0 !important
+}
+
+.weglot-flags.flag-2.gu>a:before,
+.weglot-flags.flag-2.gu>span:before {
+    background-position: -1728px 0 !important
+}
+
+.weglot-flags.flag-2.ht>a:before,
+.weglot-flags.flag-2.ht>span:before {
+    background-position: -3528px 0 !important
+}
+
+.weglot-flags.flag-2.ha>a:before,
+.weglot-flags.flag-2.ha>span:before {
+    background-position: -1176px 0 !important
+}
+
+.weglot-flags.flag-2.he>a:before,
+.weglot-flags.flag-2.he>span:before {
+    background-position: -1992px 0 !important
+}
+
+.weglot-flags.flag-2.hi>a:before,
+.weglot-flags.flag-2.hi>span:before {
+    background-position: -1728px 0 !important
+}
+
+.weglot-flags.flag-2.hu>a:before,
+.weglot-flags.flag-2.hu>span:before {
+    background-position: -2088px 0 !important
+}
+
+.weglot-flags.flag-2.is>a:before,
+.weglot-flags.flag-2.is>span:before {
+    background-position: -2064px 0 !important
+}
+
+.weglot-flags.flag-2.ig>a:before,
+.weglot-flags.flag-2.ig>span:before {
+    background-position: -1103px 0 !important
+}
+
+.weglot-flags.flag-2.id>a:before,
+.weglot-flags.flag-2.id>span:before {
+    background-position: -2040px 0 !important
+}
+
+.weglot-flags.flag-2.ga>a:before,
+.weglot-flags.flag-2.ga>span:before {
+    background-position: -2016px 0 !important
+}
+
+.weglot-flags.flag-2.it>a:before,
+.weglot-flags.flag-2.it>span:before {
+    background-position: -1968px 0 !important
+}
+
+.weglot-flags.flag-2.ja>a:before,
+.weglot-flags.flag-2.ja>span:before {
+    background-position: -1920px 0 !important
+}
+
+.weglot-flags.flag-2.jv>a:before,
+.weglot-flags.flag-2.jv>span:before {
+    background-position: -1536px 0 !important
+}
+
+.weglot-flags.flag-2.kn>a:before,
+.weglot-flags.flag-2.kn>span:before {
+    background-position: -1728px 0 !important
+}
+
+.weglot-flags.flag-2.kk>a:before,
+.weglot-flags.flag-2.kk>span:before {
+    background-position: -1704px 0 !important
+}
+
+.weglot-flags.flag-2.ko>a:before,
+.weglot-flags.flag-2.ko>span:before {
+    background-position: -1848px 0 !important
+}
+
+.weglot-flags.flag-2.ku>a:before,
+.weglot-flags.flag-2.ku>span:before {
+    background-position: -2088px 0 !important
+}
+
+.weglot-flags.flag-2.ky>a:before,
+.weglot-flags.flag-2.ky>span:before {
+    background-position: -1800px 0 !important
+}
+
+.weglot-flags.flag-2.lo>a:before,
+.weglot-flags.flag-2.lo>span:before {
+    background-position: -1776px 0 !important
+}
+
+.weglot-flags.flag-2.la>a:before,
+.weglot-flags.flag-2.la>span:before {
+    background-position: -1968px 0 !important
+}
+
+.weglot-flags.flag-2.lv>a:before,
+.weglot-flags.flag-2.lv>span:before {
+    background-position: -1752px 0 !important
+}
+
+.weglot-flags.flag-2.lt>a:before,
+.weglot-flags.flag-2.lt>span:before {
+    background-position: -1656px 0 !important
+}
+
+.weglot-flags.flag-2.lb>a:before,
+.weglot-flags.flag-2.lb>span:before {
+    background-position: -1632px 0 !important
+}
+
+.weglot-flags.flag-2.mk>a:before,
+.weglot-flags.flag-2.mk>span:before {
+    background-position: -1440px 0 !important
+}
+
+.weglot-flags.flag-2.mg>a:before,
+.weglot-flags.flag-2.mg>span:before {
+    background-position: -1560px 0 !important
+}
+
+.weglot-flags.flag-2.ms>a:before,
+.weglot-flags.flag-2.ms>span:before {
+    background-position: -1536px 0 !important
+}
+
+.weglot-flags.flag-2.ml>a:before,
+.weglot-flags.flag-2.ml>span:before {
+    background-position: -1728px 0 !important
+}
+
+.weglot-flags.flag-2.mt>a:before,
+.weglot-flags.flag-2.mt>span:before {
+    background-position: -1200px 0 !important
+}
+
+.weglot-flags.flag-2.mi>a:before,
+.weglot-flags.flag-2.mi>span:before {
+    background-position: -1224px 0 !important
+}
+
+.weglot-flags.flag-2.mr>a:before,
+.weglot-flags.flag-2.mr>span:before {
+    background-position: -1728px 0 !important
+}
+
+.weglot-flags.flag-2.mn>a:before,
+.weglot-flags.flag-2.mn>span:before {
+    background-position: -4800px 0 !important
+}
+
+.weglot-flags.flag-2.ne>a:before,
+.weglot-flags.flag-2.ne>span:before {
+    background-position: -1320px 0 !important
+}
+
+.weglot-flags.flag-2.no>a:before,
+.weglot-flags.flag-2.no>span:before {
+    background-position: -4776px 0 !important
+}
+
+.weglot-flags.flag-2.ps>a:before,
+.weglot-flags.flag-2.ps>span:before {
+    background-position: -4008px 0 !important
+}
+
+.weglot-flags.flag-2.fa>a:before,
+.weglot-flags.flag-2.fa>span:before {
+    background-position: -5088px 0 !important
+}
+
+.weglot-flags.flag-2.pl>a:before,
+.weglot-flags.flag-2.pl>span:before {
+    background-position: -984px 0 !important
+}
+
+.weglot-flags.flag-2.pt>a:before,
+.weglot-flags.flag-2.pt>span:before {
+    background-position: -528px 0 !important
+}
+
+.weglot-flags.flag-2.pa>a:before,
+.weglot-flags.flag-2.pa>span:before {
+    background-position: -1728px 0 !important
+}
+
+.weglot-flags.flag-2.ro>a:before,
+.weglot-flags.flag-2.ro>span:before {
+    background-position: -960px 0 !important
+}
+
+.weglot-flags.flag-2.ru>a:before,
+.weglot-flags.flag-2.ru>span:before {
+    background-position: -936px 0 !important
+}
+
+.weglot-flags.flag-2.sm>a:before,
+.weglot-flags.flag-2.sm>span:before {
+    background-position: -3408px 0 !important
+}
+
+.weglot-flags.flag-2.gd>a:before,
+.weglot-flags.flag-2.gd>span:before {
+    background-position: -4872px 0 !important
+}
+
+.weglot-flags.flag-2.sr>a:before,
+.weglot-flags.flag-2.sr>span:before {
+    background-position: -3120px 0 !important
+}
+
+.weglot-flags.flag-2.sn>a:before,
+.weglot-flags.flag-2.sn>span:before {
+    background-position: -72px 0 !important
+}
+
+.weglot-flags.flag-2.sd>a:before,
+.weglot-flags.flag-2.sd>span:before {
+    background-position: -1128px 0 !important
+}
+
+.weglot-flags.flag-2.si>a:before,
+.weglot-flags.flag-2.si>span:before {
+    background-position: -480px 0 !important
+}
+
+.weglot-flags.flag-2.sk>a:before,
+.weglot-flags.flag-2.sk>span:before {
+    background-position: -4152px 0 !important
+}
+
+.weglot-flags.flag-2.sl>a:before,
+.weglot-flags.flag-2.sl>span:before {
+    background-position: -696px 0 !important
+}
+
+.weglot-flags.flag-2.so>a:before,
+.weglot-flags.flag-2.so>span:before {
+    background-position: -3336px 0 !important
+}
+
+.weglot-flags.flag-2.st>a:before,
+.weglot-flags.flag-2.st>span:before {
+    background-position: -3552px 0 !important
+}
+
+.weglot-flags.flag-2.es>a:before,
+.weglot-flags.flag-2.es>span:before {
+    background-position: -96px 0 !important
+}
+
+.weglot-flags.flag-2.su>a:before,
+.weglot-flags.flag-2.su>span:before {
+    background-position: -3312px 0 !important
+}
+
+.weglot-flags.flag-2.sw>a:before,
+.weglot-flags.flag-2.sw>span:before {
+    background-position: -1872px 0 !important
+}
+
+.weglot-flags.flag-2.sv>a:before,
+.weglot-flags.flag-2.sv>span:before {
+    background-position: -552px 0 !important
+}
+
+.weglot-flags.flag-2.tl>a:before,
+.weglot-flags.flag-2.tl>span:before {
+    background-position: -1008px 0 !important
+}
+
+.weglot-flags.flag-2.ty>a:before,
+.weglot-flags.flag-2.ty>span:before {
+    background-position: -4512px 0 !important
+}
+
+.weglot-flags.flag-2.tg>a:before,
+.weglot-flags.flag-2.tg>span:before {
+    background-position: -264px 0 !important
+}
+
+.weglot-flags.flag-2.ta>a:before,
+.weglot-flags.flag-2.ta>span:before {
+    background-position: -1728px 0 !important
+}
+
+.weglot-flags.flag-2.tt>a:before,
+.weglot-flags.flag-2.tt>span:before {
+    background-position: -936px 0 !important
+}
+
+.weglot-flags.flag-2.te>a:before,
+.weglot-flags.flag-2.te>span:before {
+    background-position: -1728px 0 !important
+}
+
+.weglot-flags.flag-2.th>a:before,
+.weglot-flags.flag-2.th>span:before {
+    background-position: -456px 0 !important
+}
+
+.weglot-flags.flag-2.to>a:before,
+.weglot-flags.flag-2.to>span:before {
+    background-position: -3264px 0 !important
+}
+
+.weglot-flags.flag-2.tr>a:before,
+.weglot-flags.flag-2.tr>span:before {
+    background-position: -360px 0 !important
+}
+
+.weglot-flags.flag-2.uk>a:before,
+.weglot-flags.flag-2.uk>span:before {
+    background-position: -288px 0 !important
+}
+
+.weglot-flags.flag-2.ur>a:before,
+.weglot-flags.flag-2.ur>span:before {
+    background-position: -1128px 0 !important
+}
+
+.weglot-flags.flag-2.uz>a:before,
+.weglot-flags.flag-2.uz>span:before {
+    background-position: -240px 0 !important
+}
+
+.weglot-flags.flag-2.vi>a:before,
+.weglot-flags.flag-2.vi>span:before {
+    background-position: -144px 0 !important
+}
+
+.weglot-flags.flag-2.cy>a:before,
+.weglot-flags.flag-2.cy>span:before {
+    background-position: -4848px 0 !important
+}
+
+.weglot-flags.flag-2.fy>a:before,
+.weglot-flags.flag-2.fy>span:before {
+    background-position: -1296px 0 !important
+}
+
+.weglot-flags.flag-2.xh>a:before,
+.weglot-flags.flag-2.xh>span:before {
+    background-position: -4968px 0 !important
+}
+
+.weglot-flags.flag-2.yi>a:before,
+.weglot-flags.flag-2.yi>span:before {
+    background-position: -1992px 0 !important
+}
+
+.weglot-flags.flag-2.yo>a:before,
+.weglot-flags.flag-2.yo>span:before {
+    background-position: -1103px 0 !important
+}
+
+.weglot-flags.flag-2.zu>a:before,
+.weglot-flags.flag-2.zu>span:before {
+    background-position: -4968px 0 !important
+}
+
+.weglot-flags.flag-3.hw>a:before,
+.weglot-flags.flag-3.hw>span:before {
+    background-position: -2711px 0 !important
+}
+
+.weglot-flags.flag-3.fl>a:before,
+.weglot-flags.flag-3.fl>span:before {
+    background-position: -5232px 0 !important
+}
+
+.weglot-flags.flag-3.af>a:before,
+.weglot-flags.flag-3.af>span:before {
+    background-position: -5496px 0 !important
+}
+
+.weglot-flags.flag-3.sq>a:before,
+.weglot-flags.flag-3.sq>span:before {
+    background-position: -4776px 0 !important
+}
+
+.weglot-flags.flag-3.am>a:before,
+.weglot-flags.flag-3.am>span:before {
+    background-position: -192px 0 !important
+}
+
+.weglot-flags.flag-3.ar>a:before,
+.weglot-flags.flag-3.ar>span:before {
+    background-position: -3336px 0 !important
+}
+
+.weglot-flags.flag-3.hy>a:before,
+.weglot-flags.flag-3.hy>span:before {
+    background-position: -4632px 0 !important
+}
+
+.weglot-flags.flag-3.az>a:before,
+.weglot-flags.flag-3.az>span:before {
+    background-position: -4536px 0 !important
+}
+
+.weglot-flags.flag-3.ba>a:before,
+.weglot-flags.flag-3.ba>span:before {
+    background-position: -2664px 0 !important
+}
+
+.weglot-flags.flag-3.eu>a:before,
+.weglot-flags.flag-3.eu>span:before {
+    background-position: -5808px 0 !important
+}
+
+.weglot-flags.flag-3.be>a:before,
+.weglot-flags.flag-3.be>span:before {
+    background-position: -144px 0 !important
+}
+
+.weglot-flags.flag-3.bn>a:before,
+.weglot-flags.flag-3.bn>span:before {
+    background-position: -4488px 0 !important
+}
+
+.weglot-flags.flag-3.bs>a:before,
+.weglot-flags.flag-3.bs>span:before {
+    background-position: -4392px 0 !important
+}
+
+.weglot-flags.flag-3.bg>a:before,
+.weglot-flags.flag-3.bg>span:before {
+    background-position: -4296px 0 !important
+}
+
+.weglot-flags.flag-3.br>a:before,
+.weglot-flags.flag-3.br>span:before {
+    background-position: -4344px 0 !important
+}
+
+.weglot-flags.flag-3.my>a:before,
+.weglot-flags.flag-3.my>span:before {
+    background-position: -3769px 0 !important
+}
+
+.weglot-flags.flag-3.ca>a:before,
+.weglot-flags.flag-3.ca>span:before {
+    background-position: -5784px 0 !important
+}
+
+.weglot-flags.flag-3.zh>a:before,
+.weglot-flags.flag-3.zh>span:before {
+    background-position: -3240px 0 !important
+}
+
+.weglot-flags.flag-3.tw>a:before,
+.weglot-flags.flag-3.tw>span:before {
+    background-position: -4008px 0 !important
+}
+
+.weglot-flags.flag-3.km>a:before,
+.weglot-flags.flag-3.km>span:before {
+    background-position: -4201px 0 !important
+}
+
+.weglot-flags.flag-3.ny>a:before,
+.weglot-flags.flag-3.ny>span:before {
+    background-position: -384px 0 !important
+}
+
+.weglot-flags.flag-3.co>a:before,
+.weglot-flags.flag-3.co>span:before {
+    background-position: -2760px 0 !important
+}
+
+.weglot-flags.flag-3.hr>a:before,
+.weglot-flags.flag-3.hr>span:before {
+    background-position: -3048px 0 !important
+}
+
+.weglot-flags.flag-3.cs>a:before,
+.weglot-flags.flag-3.cs>span:before {
+    background-position: -5280px 0 !important
+}
+
+.weglot-flags.flag-3.da>a:before,
+.weglot-flags.flag-3.da>span:before {
+    background-position: -3024px 0 !important
+}
+
+.weglot-flags.flag-3.nl>a:before,
+.weglot-flags.flag-3.nl>span:before {
+    background-position: -3360px 0 !important
+}
+
+.weglot-flags.flag-3.en>a:before,
+.weglot-flags.flag-3.en>span:before {
+    background-position: -2520px 0 !important
+}
+
+.weglot-flags.flag-3.eo>a:before,
+.weglot-flags.flag-3.eo>span:before {
+    background-position: -2520px 0 !important
+}
+
+.weglot-flags.flag-3.et>a:before,
+.weglot-flags.flag-3.et>span:before {
+    background-position: -2856px 0 !important
+}
+
+.weglot-flags.flag-3.fj>a:before,
+.weglot-flags.flag-3.fj>span:before {
+    background-position: 0 0 !important
+}
+
+.weglot-flags.flag-3.fi>a:before,
+.weglot-flags.flag-3.fi>span:before {
+    background-position: -2784px 0 !important
+}
+
+.weglot-flags.flag-3.fr>a:before,
+.weglot-flags.flag-3.fr>span:before {
+    background-position: -2760px 0 !important
+}
+
+.weglot-flags.flag-3.gl>a:before,
+.weglot-flags.flag-3.gl>span:before {
+    background-position: -5832px 0 !important
+}
+
+.weglot-flags.flag-3.ka>a:before,
+.weglot-flags.flag-3.ka>span:before {
+    background-position: -1536px 0 !important
+}
+
+.weglot-flags.flag-3.de>a:before,
+.weglot-flags.flag-3.de>span:before {
+    background-position: -1488px 0 !important
+}
+
+.weglot-flags.flag-3.el>a:before,
+.weglot-flags.flag-3.el>span:before {
+    background-position: -1416px 0 !important
+}
+
+.weglot-flags.flag-3.gu>a:before,
+.weglot-flags.flag-3.gu>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-3.ht>a:before,
+.weglot-flags.flag-3.ht>span:before {
+    background-position: -5160px 0 !important
+}
+
+.weglot-flags.flag-3.ha>a:before,
+.weglot-flags.flag-3.ha>span:before {
+    background-position: -361px 0 !important
+}
+
+.weglot-flags.flag-3.he>a:before,
+.weglot-flags.flag-3.he>span:before {
+    background-position: -1608px 0 !important
+}
+
+.weglot-flags.flag-3.hi>a:before,
+.weglot-flags.flag-3.hi>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-3.hu>a:before,
+.weglot-flags.flag-3.hu>span:before {
+    background-position: -1920px 0 !important
+}
+
+.weglot-flags.flag-3.is>a:before,
+.weglot-flags.flag-3.is>span:before {
+    background-position: -840px 0 !important
+}
+
+.weglot-flags.flag-3.ig>a:before,
+.weglot-flags.flag-3.ig>span:before {
+    background-position: -3457px 0 !important
+}
+
+.weglot-flags.flag-3.id>a:before,
+.weglot-flags.flag-3.id>span:before {
+    background-position: -4992px 0 !important
+}
+
+.weglot-flags.flag-3.ga>a:before,
+.weglot-flags.flag-3.ga>span:before {
+    background-position: -2016px 0 !important
+}
+
+.weglot-flags.flag-3.it>a:before,
+.weglot-flags.flag-3.it>span:before {
+    background-position: -336px 0 !important
+}
+
+.weglot-flags.flag-3.ja>a:before,
+.weglot-flags.flag-3.ja>span:before {
+    background-position: -2448px 0 !important
+}
+
+.weglot-flags.flag-3.jv>a:before,
+.weglot-flags.flag-3.jv>span:before {
+    background-position: -864px 0 !important
+}
+
+.weglot-flags.flag-3.kn>a:before,
+.weglot-flags.flag-3.kn>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-3.kk>a:before,
+.weglot-flags.flag-3.kk>span:before {
+    background-position: -3912px 0 !important
+}
+
+.weglot-flags.flag-3.ko>a:before,
+.weglot-flags.flag-3.ko>span:before {
+    background-position: -2256px 0 !important
+}
+
+.weglot-flags.flag-3.ku>a:before,
+.weglot-flags.flag-3.ku>span:before {
+    background-position: -1920px 0 !important
+}
+
+.weglot-flags.flag-3.ky>a:before,
+.weglot-flags.flag-3.ky>span:before {
+    background-position: -744px 0 !important
+}
+
+.weglot-flags.flag-3.lo>a:before,
+.weglot-flags.flag-3.lo>span:before {
+    background-position: -3816px 0 !important
+}
+
+.weglot-flags.flag-3.la>a:before,
+.weglot-flags.flag-3.la>span:before {
+    background-position: -336px 0 !important
+}
+
+.weglot-flags.flag-3.lv>a:before,
+.weglot-flags.flag-3.lv>span:before {
+    background-position: -216px 0 !important
+}
+
+.weglot-flags.flag-3.lt>a:before,
+.weglot-flags.flag-3.lt>span:before {
+    background-position: -1776px 0 !important
+}
+
+.weglot-flags.flag-3.lb>a:before,
+.weglot-flags.flag-3.lb>span:before {
+    background-position: -1945px 0 !important
+}
+
+.weglot-flags.flag-3.mk>a:before,
+.weglot-flags.flag-3.mk>span:before {
+    background-position: -2208px 0 !important
+}
+
+.weglot-flags.flag-3.mg>a:before,
+.weglot-flags.flag-3.mg>span:before {
+    background-position: -5064px 0 !important
+}
+
+.weglot-flags.flag-3.ms>a:before,
+.weglot-flags.flag-3.ms>span:before {
+    background-position: -864px 0 !important
+}
+
+.weglot-flags.flag-3.ml>a:before,
+.weglot-flags.flag-3.ml>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-3.mt>a:before,
+.weglot-flags.flag-3.mt>span:before {
+    background-position: -4920px 0 !important
+}
+
+.weglot-flags.flag-3.mi>a:before,
+.weglot-flags.flag-3.mi>span:before {
+    background-position: -2113px 0 !important
+}
+
+.weglot-flags.flag-3.mr>a:before,
+.weglot-flags.flag-3.mr>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-3.mn>a:before,
+.weglot-flags.flag-3.mn>span:before {
+    background-position: -24px 0 !important
+}
+
+.weglot-flags.flag-3.ne>a:before,
+.weglot-flags.flag-3.ne>span:before {
+    background-position: -5642px 0 !important
+}
+
+.weglot-flags.flag-3.no>a:before,
+.weglot-flags.flag-3.no>span:before {
+    background-position: -984px 0 !important
+}
+
+.weglot-flags.flag-3.ps>a:before,
+.weglot-flags.flag-3.ps>span:before {
+    background-position: -4753px 0 !important
+}
+
+.weglot-flags.flag-3.fa>a:before,
+.weglot-flags.flag-3.fa>span:before {
+    background-position: -816px 0 !important
+}
+
+.weglot-flags.flag-3.pl>a:before,
+.weglot-flags.flag-3.pl>span:before {
+    background-position: -4944px 0 !important
+}
+
+.weglot-flags.flag-3.pt>a:before,
+.weglot-flags.flag-3.pt>span:before {
+    background-position: -3504px 0 !important
+}
+
+.weglot-flags.flag-3.pa>a:before,
+.weglot-flags.flag-3.pa>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-3.ro>a:before,
+.weglot-flags.flag-3.ro>span:before {
+    background-position: -3744px 0 !important
+}
+
+.weglot-flags.flag-3.ru>a:before,
+.weglot-flags.flag-3.ru>span:before {
+    background-position: -2664px 0 !important
+}
+
+.weglot-flags.flag-3.sm>a:before,
+.weglot-flags.flag-3.sm>span:before {
+    background-position: -1248px 0 !important
+}
+
+.weglot-flags.flag-3.gd>a:before,
+.weglot-flags.flag-3.gd>span:before {
+    background-position: -3841px 0 !important
+}
+
+.weglot-flags.flag-3.sr>a:before,
+.weglot-flags.flag-3.sr>span:before {
+    background-position: -3312px 0 !important
+}
+
+.weglot-flags.flag-3.sn>a:before,
+.weglot-flags.flag-3.sn>span:before {
+    background-position: -5521px 0 !important
+}
+
+.weglot-flags.flag-3.sd>a:before,
+.weglot-flags.flag-3.sd>span:before {
+    background-position: -1993px 0 !important
+}
+
+.weglot-flags.flag-3.si>a:before,
+.weglot-flags.flag-3.si>span:before {
+    background-position: -2833px 0 !important
+}
+
+.weglot-flags.flag-3.sk>a:before,
+.weglot-flags.flag-3.sk>span:before {
+    background-position: -552px 0 !important
+}
+
+.weglot-flags.flag-3.sl>a:before,
+.weglot-flags.flag-3.sl>span:before {
+    background-position: -936px 0 !important
+}
+
+.weglot-flags.flag-3.so>a:before,
+.weglot-flags.flag-3.so>span:before {
+    background-position: -4032px 0 !important
+}
+
+.weglot-flags.flag-3.st>a:before,
+.weglot-flags.flag-3.st>span:before {
+    background-position: -3961px 0 !important
+}
+
+.weglot-flags.flag-3.es>a:before,
+.weglot-flags.flag-3.es>span:before {
+    background-position: -3576px 0 !important
+}
+
+.weglot-flags.flag-3.su>a:before,
+.weglot-flags.flag-3.su>span:before {
+    background-position: -3985px 0 !important
+}
+
+.weglot-flags.flag-3.sw>a:before,
+.weglot-flags.flag-3.sw>span:before {
+    background-position: -912px 0 !important
+}
+
+.weglot-flags.flag-3.sv>a:before,
+.weglot-flags.flag-3.sv>span:before {
+    background-position: -264px 0 !important
+}
+
+.weglot-flags.flag-3.tl>a:before,
+.weglot-flags.flag-3.tl>span:before {
+    background-position: -5232px 0 !important
+}
+
+.weglot-flags.flag-3.ty>a:before,
+.weglot-flags.flag-3.ty>span:before {
+    background-position: -1512px 0 !important
+}
+
+.weglot-flags.flag-3.tg>a:before,
+.weglot-flags.flag-3.tg>span:before {
+    background-position: -3720px 0 !important
+}
+
+.weglot-flags.flag-3.ta>a:before,
+.weglot-flags.flag-3.ta>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-3.tt>a:before,
+.weglot-flags.flag-3.tt>span:before {
+    background-position: -2664px 0 !important
+}
+
+.weglot-flags.flag-3.te>a:before,
+.weglot-flags.flag-3.te>span:before {
+    background-position: -2304px 0 !important
+}
+
+.weglot-flags.flag-3.th>a:before,
+.weglot-flags.flag-3.th>span:before {
+    background-position: -4848px 0 !important
+}
+
+.weglot-flags.flag-3.to>a:before,
+.weglot-flags.flag-3.to>span:before {
+    background-position: -1680px 0 !important
+}
+
+.weglot-flags.flag-3.tr>a:before,
+.weglot-flags.flag-3.tr>span:before {
+    background-position: -432px 0 !important
+}
+
+.weglot-flags.flag-3.uk>a:before,
+.weglot-flags.flag-3.uk>span:before {
+    background-position: -5736px 0 !important
+}
+
+.weglot-flags.flag-3.ur>a:before,
+.weglot-flags.flag-3.ur>span:before {
+    background-position: -1992px 0 !important
+}
+
+.weglot-flags.flag-3.uz>a:before,
+.weglot-flags.flag-3.uz>span:before {
+    background-position: -2160px 0 !important
+}
+
+.weglot-flags.flag-3.vi>a:before,
+.weglot-flags.flag-3.vi>span:before {
+    background-position: -3384px 0 !important
+}
+
+.weglot-flags.flag-3.cy>a:before,
+.weglot-flags.flag-3.cy>span:before {
+    background-position: -5040px 0 !important
+}
+
+.weglot-flags.flag-3.fy>a:before,
+.weglot-flags.flag-3.fy>span:before {
+    background-position: -3360px 0 !important
+}
+
+.weglot-flags.flag-3.xh>a:before,
+.weglot-flags.flag-3.xh>span:before {
+    background-position: -5496px 0 !important
+}
+
+.weglot-flags.flag-3.yi>a:before,
+.weglot-flags.flag-3.yi>span:before {
+    background-position: -1608px 0 !important
+}
+
+.weglot-flags.flag-3.yo>a:before,
+.weglot-flags.flag-3.yo>span:before {
+    background-position: -3457px 0 !important
+}
+
+.weglot-flags.flag-3.zu>a:before,
+.weglot-flags.flag-3.zu>span:before {
+    background-position: -5496px 0 !important
+}
+
+#wp-admin-bar-weglot>.ab-item {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZyBmaWxsPSIjYTBhNWFhIj48cGF0aCBkPSJNMjEuNzM5IDkyLjU2NWw1MS44MjggMTI5LjczMiAyMy42Ni02MC4yNzkgMjQuMTQ0IDYwLjI3OUwxNzMuMiA5Mi41NjVoLTI4LjAwN2wtMjMuODIyIDU4Ljc1LTIzLjkwMi01OC43NS0yMy45MDIgNTguNzUtMjMuOTAyLTU4Ljc1SDIxLjczOXoiLz48cGF0aCBkPSJNMjEwLjAwNiA5Mi43MWMtMTcuODY2IDAtMzMuMTU3IDYuMzU4LTQ1Ljg3MyAxOS4wNzQtMTIuNzE1IDEyLjcxNi0xOC45OTMgMjguMDA2LTE4Ljk5MyA0NS43OTIgMCAxNy44NjcgNi4yNzggMzMuMTU4IDE4Ljk5MyA0NS44NzMgMTIuNzE2IDEyLjcxNiAyOC4wMDcgMTguOTkzIDQ1Ljg3MyAxOC45OTMgMTcuNzg2IDAgMzMuMDc3LTYuMjc3IDQ1Ljc5My0xOC45OTMgMTIuNzE1LTEyLjcxNSAxOS4wNzMtMjguMDA2IDE5LjA3My00NS44NzMgMC00LjUwNy0uNDgzLTguODUyLTEuMjg4LTEyLjk1N2gtNjMuNTc4djI1LjkxNGgzNi42OTljLTIuNzM3IDcuNTY1LTcuNDg1IDEzLjg0My0xNC4wODQgMTguNjcxLTYuNjggNC44My0xNC4yNDUgNy4yNDQtMjIuNjE1IDcuMjQ0LTEwLjc4NCAwLTE5Ljk1OC0zLjc4My0yNy41MjMtMTEuMzQ4LTcuNTY2LTcuNTY1LTExLjM0OC0xNi43NC0xMS4zNDgtMjcuNTI0IDAtMTAuNjIzIDMuNzgyLTE5Ljc5OCAxMS4zNDgtMjcuNDQzIDcuNTY1LTcuNjQ1IDE2Ljc0LTExLjUwOCAyNy41MjMtMTEuNTA4IDEwLjYyMyAwIDE5Ljc5OCAzLjg2MyAyNy41MjQgMTEuNDI4bDE4LjM1LTE4LjM1YTY3Ljk2MyA2Ny45NjMgMCAwMC0yMC43NjQtMTMuODQyYy03Ljg4Ny0zLjM4LTE2LjI1Ny01LjE1LTI1LjExLTUuMTV6Ii8+PC9nPjwvc3ZnPg==") !important;
+    -webkit-background-size: 22px auto !important;
+    background-size: 22px auto !important;
+    background-repeat: no-repeat !important;
+    background-position: 4px 5px !important;
+    padding-left: 30px !important
+}
+
+li.weglot-hide,
+.weglot-hide {
+    display: none !important
+}
+
+.country-selector {
+    z-index: 9999;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    width: auto
+}
+
+.country-selector a {
+    padding: 0 10px;
+    outline: none;
+    text-decoration: none;
+    float: none !important;
+    white-space: nowrap;
+    font-weight: 400;
+    cursor: pointer;
+    color: #000;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.country-selector a:focus {
+    outline: none
+}
+
+.country-selector ul {
+    padding: 0;
+    z-index: 1010;
+    list-style: none;
+    margin: 0
+}
+
+.country-selector li {
+    margin: 0;
+    padding: 0
+}
+
+.country-selector.weglot-custom-switcher-ajax {
+    display: none
+}
+
+.country-selector.weglot-dropdown {
+    background-color: #fff
+}
+
+.country-selector.weglot-dropdown a,
+.country-selector.weglot-dropdown span {
+    display: block;
+    height: 37px;
+    line-height: 36px;
+    font-size: 13px;
+    padding: 0 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 400
+}
+
+.country-selector.weglot-dropdown a:hover,
+.country-selector.weglot-dropdown span:hover {
+    cursor: pointer
+}
+
+.country-selector.weglot-dropdown .wgcurrent {
+    border: 1px solid #e0e0e0;
+    list-style: none;
+    display: block;
+    margin: 0
+}
+
+.country-selector.weglot-dropdown .wgcurrent a,
+.country-selector.weglot-dropdown .wgcurrent span {
+    padding-right: 60px
+}
+
+.country-selector.weglot-dropdown .wgcurrent:after {
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    right: 8px;
+    width: 13px;
+    height: 7px;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-pixelated;
+    image-rendering: pixelated;
+    background: url(../images/wgarrowdown.png) no-repeat;
+    content: "";
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg)
+}
+
+.country-selector.weglot-dropdown ul {
+    position: absolute;
+    min-width: 100%;
+    border: 1px solid #ebeef0;
+    background: #fff;
+    left: 0;
+    top: initial;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: none;
+    padding: 0
+}
+
+.country-selector.weglot-dropdown input:checked~ul {
+    display: block
+}
+
+.country-selector.weglot-dropdown input:checked~.wgcurrent:after {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg)
+}
+
+.country-selector.weglot-dropdown li {
+    width: 100%
+}
+
+.country-selector.weglot-dropdown.weglot-invert ul {
+    bottom: 38px
+}
+
+.country-selector.weglot-dropdown.weglot-invert input:checked~.wgcurrent:after {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg)
+}
+
+.country-selector.weglot-default {
+    position: fixed;
+    bottom: 0;
+    right: 40px
+}
+
+.country-selector.weglot-inline a:hover {
+    text-decoration: underline;
+    color: #00a0d2
+}
+
+.country-selector.weglot-inline .wgcurrent a {
+    text-decoration: underline
+}
+
+.country-selector.weglot-inline label {
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.country-selector.weglot-inline ul {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.country-selector.weglot-inline li {
+    line-height: 1 !important;
+    display: inline-block;
+    margin: 2px 0;
+    vertical-align: middle
+}
+
+.country-selector.weglot-inline.weglot-default {
+    bottom: 5px
+}
+
+.country-selector input {
+    display: none !important
+}
+
+.navbar .navbar-nav li.weglot-flags a.weglot-lang:before {
+    position: static;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none
+}
+
+.js .main-navigation .country-selector ul {
+    display: none
+}
+
+html[dir=rtl] .weglot-flags a:before,
+html[dir=rtl] .weglot-flags span:before {
+    margin-right: 0;
+    margin-left: 10px
+}
+
+.weglot-flags>a:before,
+.weglot-flags>span.wglanguage-name:before {
+    background-image: url(../images/rect_mate.png);
+    -webkit-background-size: auto 20px !important;
+    background-size: auto 20px !important;
+    border-radius: 0 !important;
+    width: 30px !important;
+    height: 20px !important;
+    content: "";
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+    overflow: hidden
+}
+
+.weglot-flags.flag-1>a:before,
+.weglot-flags.flag-1>span:before {
+    background-image: url(../images/rect_bright.png)
+}
+
+.weglot-flags.flag-2>a:before,
+.weglot-flags.flag-2>span:before {
+    background-image: url(../images/square_flag.png);
+    width: 24px !important;
+    height: 24px !important;
+    -webkit-background-size: auto 24px !important;
+    background-size: auto 24px !important
+}
+
+.weglot-flags.flag-3 a:before,
+.weglot-flags.flag-3 span:before {
+    background-image: url(../images/circular_flag.png);
+    width: 24px !important;
+    height: 24px !important;
+    -webkit-background-size: auto 24px !important;
+    background-size: auto 24px !important
+}
+
+.weglot-flags>a span:before {
+    background-image: none !important;
+    display: none !important
+}
+
+.weglot-flags>span a:before {
+    background-image: none !important;
+    display: none !important
+}
+
+.weglot-flags.flag-3.wg-af>a:before,
+.weglot-flags.flag-3.wg-af>span:before {
+    background-image: url("../images/za_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-af>a:before,
+.weglot-flags.flag-2.wg-af>span:before {
+    background-image: url("../images/za.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-af>a:before,
+.weglot-flags.flag-1.wg-af>span:before {
+    background-image: url("../images/za_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-af>a:before,
+.weglot-flags.flag-0.wg-af>span:before {
+    background-image: url("../images/za_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-xh>a:before,
+.weglot-flags.flag-3.wg-xh>span:before {
+    background-image: url("../images/za_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-xh>a:before,
+.weglot-flags.flag-2.wg-xh>span:before {
+    background-image: url("../images/za.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-xh>a:before,
+.weglot-flags.flag-1.wg-xh>span:before {
+    background-image: url("../images/za_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-xh>a:before,
+.weglot-flags.flag-0.wg-xh>span:before {
+    background-image: url("../images/za_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-zu>a:before,
+.weglot-flags.flag-3.wg-zu>span:before {
+    background-image: url("../images/za_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-zu>a:before,
+.weglot-flags.flag-2.wg-zu>span:before {
+    background-image: url("../images/za.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-zu>a:before,
+.weglot-flags.flag-1.wg-zu>span:before {
+    background-image: url("../images/za_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-zu>a:before,
+.weglot-flags.flag-0.wg-zu>span:before {
+    background-image: url("../images/za_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-am>a:before,
+.weglot-flags.flag-3.wg-am>span:before {
+    background-image: url("../images/et.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-am>a:before,
+.weglot-flags.flag-2.wg-am>span:before {
+    background-image: url("../images/et_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-am>a:before,
+.weglot-flags.flag-1.wg-am>span:before {
+    background-image: url("../images/et_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-am>a:before,
+.weglot-flags.flag-0.wg-am>span:before {
+    background-image: url("../images/et_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ar>a:before,
+.weglot-flags.flag-3.wg-ar>span:before {
+    background-image: url("../images/sa.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ar>a:before,
+.weglot-flags.flag-2.wg-ar>span:before {
+    background-image: url("../images/sa_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ar>a:before,
+.weglot-flags.flag-1.wg-ar>span:before {
+    background-image: url("../images/sa_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ar>a:before,
+.weglot-flags.flag-0.wg-ar>span:before {
+    background-image: url("../images/sa_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-az>a:before,
+.weglot-flags.flag-3.wg-az>span:before {
+    background-image: url("../images/az_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-az>a:before,
+.weglot-flags.flag-2.wg-az>span:before {
+    background-image: url("../images/az_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-az>a:before,
+.weglot-flags.flag-1.wg-az>span:before {
+    background-image: url("../images/az_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-az>a:before,
+.weglot-flags.flag-0.wg-az>span:before {
+    background-image: url("../images/az.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ba>a:before,
+.weglot-flags.flag-3.wg-ba>span:before {
+    background-image: url("../images/ru_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ba>a:before,
+.weglot-flags.flag-2.wg-ba>span:before {
+    background-image: url("../images/ru.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ba>a:before,
+.weglot-flags.flag-1.wg-ba>span:before {
+    background-image: url("../images/ru_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ba>a:before,
+.weglot-flags.flag-0.wg-ba>span:before {
+    background-image: url("../images/ru_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ru>a:before,
+.weglot-flags.flag-3.wg-ru>span:before {
+    background-image: url("../images/ru_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ru>a:before,
+.weglot-flags.flag-2.wg-ru>span:before {
+    background-image: url("../images/ru.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ru>a:before,
+.weglot-flags.flag-1.wg-ru>span:before {
+    background-image: url("../images/ru_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ru>a:before,
+.weglot-flags.flag-0.wg-ru>span:before {
+    background-image: url("../images/ru_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-be>a:before,
+.weglot-flags.flag-3.wg-be>span:before {
+    background-image: url("../images/by_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-be>a:before,
+.weglot-flags.flag-2.wg-be>span:before {
+    background-image: url("../images/by_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-be>a:before,
+.weglot-flags.flag-1.wg-be>span:before {
+    background-image: url("../images/by.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-be>a:before,
+.weglot-flags.flag-0.wg-be>span:before {
+    background-image: url("../images/by_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-bg>a:before,
+.weglot-flags.flag-3.wg-bg>span:before {
+    background-image: url("../images/bg.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-bg>a:before,
+.weglot-flags.flag-2.wg-bg>span:before {
+    background-image: url("../images/bg_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-bg>a:before,
+.weglot-flags.flag-1.wg-bg>span:before {
+    background-image: url("../images/bg_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-bg>a:before,
+.weglot-flags.flag-0.wg-bg>span:before {
+    background-image: url("../images/bg_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-bn>a:before,
+.weglot-flags.flag-3.wg-bn>span:before {
+    background-image: url("../images/bd.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-bn>a:before,
+.weglot-flags.flag-2.wg-bn>span:before {
+    background-image: url("../images/bd_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-bn>a:before,
+.weglot-flags.flag-1.wg-bn>span:before {
+    background-image: url("../images/bd_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-bn>a:before,
+.weglot-flags.flag-0.wg-bn>span:before {
+    background-image: url("../images/bd_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-br>a:before,
+.weglot-flags.flag-3.wg-br>span:before {
+    background-image: url("../images/br.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-br>a:before,
+.weglot-flags.flag-2.wg-br>span:before {
+    background-image: url("../images/br_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-br>a:before,
+.weglot-flags.flag-1.wg-br>span:before {
+    background-image: url("../images/br_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-br>a:before,
+.weglot-flags.flag-0.wg-br>span:before {
+    background-image: url("../images/br_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-pt-br>a:before,
+.weglot-flags.flag-3.wg-pt-br>span:before {
+    background-image: url("../images/br.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-pt-br>a:before,
+.weglot-flags.flag-2.wg-pt-br>span:before {
+    background-image: url("../images/br_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-pt-br>a:before,
+.weglot-flags.flag-1.wg-pt-br>span:before {
+    background-image: url("../images/br_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-pt-br>a:before,
+.weglot-flags.flag-0.wg-pt-br>span:before {
+    background-image: url("../images/br_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-bs>a:before,
+.weglot-flags.flag-3.wg-bs>span:before {
+    background-image: url("../images/ba_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-bs>a:before,
+.weglot-flags.flag-2.wg-bs>span:before {
+    background-image: url("../images/ba.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-bs>a:before,
+.weglot-flags.flag-1.wg-bs>span:before {
+    background-image: url("../images/ba_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-bs>a:before,
+.weglot-flags.flag-0.wg-bs>span:before {
+    background-image: url("../images/ba_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ca>a:before,
+.weglot-flags.flag-3.wg-ca>span:before {
+    background-image: url("../images/es-ca.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ca>a:before,
+.weglot-flags.flag-2.wg-ca>span:before {
+    background-image: url("../images/es-ca_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ca>a:before,
+.weglot-flags.flag-1.wg-ca>span:before {
+    background-image: url("../images/es-ca_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ca>a:before,
+.weglot-flags.flag-0.wg-ca>span:before {
+    background-image: url("../images/es-ca_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-co>a:before,
+.weglot-flags.flag-3.wg-co>span:before {
+    background-image: url("../images/co.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-co>a:before,
+.weglot-flags.flag-2.wg-co>span:before {
+    background-image: url("../images/co_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-co>a:before,
+.weglot-flags.flag-1.wg-co>span:before {
+    background-image: url("../images/co_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-co>a:before,
+.weglot-flags.flag-0.wg-co>span:before {
+    background-image: url("../images/co_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-cs>a:before,
+.weglot-flags.flag-3.wg-cs>span:before {
+    background-image: url("../images/cz_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-cs>a:before,
+.weglot-flags.flag-2.wg-cs>span:before {
+    background-image: url("../images/cz.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-cs>a:before,
+.weglot-flags.flag-1.wg-cs>span:before {
+    background-image: url("../images/cz_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-cs>a:before,
+.weglot-flags.flag-0.wg-cs>span:before {
+    background-image: url("../images/cz_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-cy>a:before,
+.weglot-flags.flag-3.wg-cy>span:before {
+    background-image: url("../images/gb-wls.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-cy>a:before,
+.weglot-flags.flag-2.wg-cy>span:before {
+    background-image: url("../images/gb-wls_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-cy>a:before,
+.weglot-flags.flag-1.wg-cy>span:before {
+    background-image: url("../images/gb-wls_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-cy>a:before,
+.weglot-flags.flag-0.wg-cy>span:before {
+    background-image: url("../images/gb-wls_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-da>a:before,
+.weglot-flags.flag-3.wg-da>span:before {
+    background-image: url("../images/dk_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-da>a:before,
+.weglot-flags.flag-2.wg-da>span:before {
+    background-image: url("../images/dk.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-da>a:before,
+.weglot-flags.flag-1.wg-da>span:before {
+    background-image: url("../images/dk_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-da>a:before,
+.weglot-flags.flag-0.wg-da>span:before {
+    background-image: url("../images/dk_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-de>a:before,
+.weglot-flags.flag-3.wg-de>span:before {
+    background-image: url("../images/de.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-de>a:before,
+.weglot-flags.flag-2.wg-de>span:before {
+    background-image: url("../images/de_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-de>a:before,
+.weglot-flags.flag-1.wg-de>span:before {
+    background-image: url("../images/de_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-de>a:before,
+.weglot-flags.flag-0.wg-de>span:before {
+    background-image: url("../images/de_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-el>a:before,
+.weglot-flags.flag-3.wg-el>span:before {
+    background-image: url("../images/gr.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-el>a:before,
+.weglot-flags.flag-2.wg-el>span:before {
+    background-image: url("../images/gr_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-el>a:before,
+.weglot-flags.flag-1.wg-el>span:before {
+    background-image: url("../images/gr_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-el>a:before,
+.weglot-flags.flag-0.wg-el>span:before {
+    background-image: url("../images/gr_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-en>a:before,
+.weglot-flags.flag-3.wg-en>span:before {
+    background-image: url("../images/gb.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-en>a:before,
+.weglot-flags.flag-2.wg-en>span:before {
+    background-image: url("../images/gb_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-en>a:before,
+.weglot-flags.flag-1.wg-en>span:before {
+    background-image: url("../images/gb_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-en>a:before,
+.weglot-flags.flag-0.wg-en>span:before {
+    background-image: url("../images/gb_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-eo>a:before,
+.weglot-flags.flag-3.wg-eo>span:before {
+    background-image: url("../images/eo_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-eo>a:before,
+.weglot-flags.flag-2.wg-eo>span:before {
+    background-image: url("../images/eo.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-eo>a:before,
+.weglot-flags.flag-1.wg-eo>span:before {
+    background-image: url("../images/eo_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-eo>a:before,
+.weglot-flags.flag-0.wg-eo>span:before {
+    background-image: url("../images/eo_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-es>a:before,
+.weglot-flags.flag-3.wg-es>span:before {
+    background-image: url("../images/es.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-es>a:before,
+.weglot-flags.flag-2.wg-es>span:before {
+    background-image: url("../images/es_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-es>a:before,
+.weglot-flags.flag-1.wg-es>span:before {
+    background-image: url("../images/es_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-es>a:before,
+.weglot-flags.flag-0.wg-es>span:before {
+    background-image: url("../images/es_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-et>a:before,
+.weglot-flags.flag-3.wg-et>span:before {
+    background-image: url("../images/ee.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-et>a:before,
+.weglot-flags.flag-2.wg-et>span:before {
+    background-image: url("../images/ee_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-et>a:before,
+.weglot-flags.flag-1.wg-et>span:before {
+    background-image: url("../images/ee_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-et>a:before,
+.weglot-flags.flag-0.wg-et>span:before {
+    background-image: url("../images/ee_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-eu>a:before,
+.weglot-flags.flag-3.wg-eu>span:before {
+    background-image: url("../images/eu.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-eu>a:before,
+.weglot-flags.flag-2.wg-eu>span:before {
+    background-image: url("../images/eu_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-eu>a:before,
+.weglot-flags.flag-1.wg-eu>span:before {
+    background-image: url("../images/eu_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-eu>a:before,
+.weglot-flags.flag-0.wg-eu>span:before {
+    background-image: url("../images/eu_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-fa>a:before,
+.weglot-flags.flag-3.wg-fa>span:before {
+    background-image: url("../images/ir.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-fa>a:before,
+.weglot-flags.flag-2.wg-fa>span:before {
+    background-image: url("../images/ir_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-fa>a:before,
+.weglot-flags.flag-1.wg-fa>span:before {
+    background-image: url("../images/ir_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-fa>a:before,
+.weglot-flags.flag-0.wg-fa>span:before {
+    background-image: url("../images/ir_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-fi>a:before,
+.weglot-flags.flag-3.wg-fi>span:before {
+    background-image: url("../images/fi.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-fi>a:before,
+.weglot-flags.flag-2.wg-fi>span:before {
+    background-image: url("../images/fi_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-fi>a:before,
+.weglot-flags.flag-1.wg-fi>span:before {
+    background-image: url("../images/fi_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-fi>a:before,
+.weglot-flags.flag-0.wg-fi>span:before {
+    background-image: url("../images/fi_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-fj>a:before,
+.weglot-flags.flag-3.wg-fj>span:before {
+    background-image: url("../images/fj.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-fj>a:before,
+.weglot-flags.flag-2.wg-fj>span:before {
+    background-image: url("../images/fj_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-fj>a:before,
+.weglot-flags.flag-1.wg-fj>span:before {
+    background-image: url("../images/fj_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-fj>a:before,
+.weglot-flags.flag-0.wg-fj>span:before {
+    background-image: url("../images/fj_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-cb>a:before,
+.weglot-flags.flag-3.wg-cb>span:before {
+    background-image: url("../images/ph.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-cb>a:before,
+.weglot-flags.flag-2.wg-cb>span:before {
+    background-image: url("../images/ph_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-cb>a:before,
+.weglot-flags.flag-1.wg-cb>span:before {
+    background-image: url("../images/ph_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-cb>a:before,
+.weglot-flags.flag-0.wg-cb>span:before {
+    background-image: url("../images/ph_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ceb>a:before,
+.weglot-flags.flag-3.wg-ceb>span:before {
+    background-image: url("../images/ph.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ceb>a:before,
+.weglot-flags.flag-2.wg-ceb>span:before {
+    background-image: url("../images/ph_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ceb>a:before,
+.weglot-flags.flag-1.wg-ceb>span:before {
+    background-image: url("../images/ph_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ceb>a:before,
+.weglot-flags.flag-0.wg-ceb>span:before {
+    background-image: url("../images/ph_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-fl>a:before,
+.weglot-flags.flag-3.wg-fl>span:before {
+    background-image: url("../images/ph.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-fl>a:before,
+.weglot-flags.flag-2.wg-fl>span:before {
+    background-image: url("../images/ph_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-fl>a:before,
+.weglot-flags.flag-1.wg-fl>span:before {
+    background-image: url("../images/ph_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-fl>a:before,
+.weglot-flags.flag-0.wg-fl>span:before {
+    background-image: url("../images/ph_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-fr>a:before,
+.weglot-flags.flag-3.wg-fr>span:before {
+    background-image: url("../images/fr.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-fr>a:before,
+.weglot-flags.flag-2.wg-fr>span:before {
+    background-image: url("../images/fr_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-fr>a:before,
+.weglot-flags.flag-1.wg-fr>span:before {
+    background-image: url("../images/fr_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-fr>a:before,
+.weglot-flags.flag-0.wg-fr>span:before {
+    background-image: url("../images/fr_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-fy>a:before,
+.weglot-flags.flag-3.wg-fy>span:before {
+    background-image: url("../images/nl.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-fy>a:before,
+.weglot-flags.flag-2.wg-fy>span:before {
+    background-image: url("../images/nl_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-fy>a:before,
+.weglot-flags.flag-1.wg-fy>span:before {
+    background-image: url("../images/nl_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-fy>a:before,
+.weglot-flags.flag-0.wg-fy>span:before {
+    background-image: url("../images/nl_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-nl>a:before,
+.weglot-flags.flag-3.wg-nl>span:before {
+    background-image: url("../images/nl.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-nl>a:before,
+.weglot-flags.flag-2.wg-nl>span:before {
+    background-image: url("../images/nl_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-nl>a:before,
+.weglot-flags.flag-1.wg-nl>span:before {
+    background-image: url("../images/nl_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-nl>a:before,
+.weglot-flags.flag-0.wg-nl>span:before {
+    background-image: url("../images/nl_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ga>a:before,
+.weglot-flags.flag-3.wg-ga>span:before {
+    background-image: url("../images/ie.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ga>a:before,
+.weglot-flags.flag-2.wg-ga>span:before {
+    background-image: url("../images/ie_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ga>a:before,
+.weglot-flags.flag-1.wg-ga>span:before {
+    background-image: url("../images/ie_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ga>a:before,
+.weglot-flags.flag-0.wg-ga>span:before {
+    background-image: url("../images/ie_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-gd>a:before,
+.weglot-flags.flag-3.wg-gd>span:before {
+    background-image: url("../images/gb-sct_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-gd>a:before,
+.weglot-flags.flag-2.wg-gd>span:before {
+    background-image: url("../images/gb-sct_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-gd>a:before,
+.weglot-flags.flag-1.wg-gd>span:before {
+    background-image: url("../images/gb-sct.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-gd>a:before,
+.weglot-flags.flag-0.wg-gd>span:before {
+    background-image: url("../images/gb-sct_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-gl>a:before,
+.weglot-flags.flag-3.wg-gl>span:before {
+    background-image: url("../images/es-ga.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-gl>a:before,
+.weglot-flags.flag-2.wg-gl>span:before {
+    background-image: url("../images/es-ga_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-gl>a:before,
+.weglot-flags.flag-1.wg-gl>span:before {
+    background-image: url("../images/es-ga_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-gl>a:before,
+.weglot-flags.flag-0.wg-gl>span:before {
+    background-image: url("../images/es-ga_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-as>a:before,
+.weglot-flags.flag-3.wg-as>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-as>a:before,
+.weglot-flags.flag-2.wg-as>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-as>a:before,
+.weglot-flags.flag-1.wg-as>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-as>a:before,
+.weglot-flags.flag-0.wg-as>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-gu>a:before,
+.weglot-flags.flag-3.wg-gu>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-gu>a:before,
+.weglot-flags.flag-2.wg-gu>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-gu>a:before,
+.weglot-flags.flag-1.wg-gu>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-gu>a:before,
+.weglot-flags.flag-0.wg-gu>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-hi>a:before,
+.weglot-flags.flag-3.wg-hi>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-hi>a:before,
+.weglot-flags.flag-2.wg-hi>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-hi>a:before,
+.weglot-flags.flag-1.wg-hi>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-hi>a:before,
+.weglot-flags.flag-0.wg-hi>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-kn>a:before,
+.weglot-flags.flag-3.wg-kn>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-kn>a:before,
+.weglot-flags.flag-2.wg-kn>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-kn>a:before,
+.weglot-flags.flag-1.wg-kn>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-kn>a:before,
+.weglot-flags.flag-0.wg-kn>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ml>a:before,
+.weglot-flags.flag-3.wg-ml>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ml>a:before,
+.weglot-flags.flag-2.wg-ml>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ml>a:before,
+.weglot-flags.flag-1.wg-ml>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ml>a:before,
+.weglot-flags.flag-0.wg-ml>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-mr>a:before,
+.weglot-flags.flag-3.wg-mr>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-mr>a:before,
+.weglot-flags.flag-2.wg-mr>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-mr>a:before,
+.weglot-flags.flag-1.wg-mr>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-mr>a:before,
+.weglot-flags.flag-0.wg-mr>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-or>a:before,
+.weglot-flags.flag-3.wg-or>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-or>a:before,
+.weglot-flags.flag-2.wg-or>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-or>a:before,
+.weglot-flags.flag-1.wg-or>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-or>a:before,
+.weglot-flags.flag-0.wg-or>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-pa>a:before,
+.weglot-flags.flag-3.wg-pa>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-pa>a:before,
+.weglot-flags.flag-2.wg-pa>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-pa>a:before,
+.weglot-flags.flag-1.wg-pa>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-pa>a:before,
+.weglot-flags.flag-0.wg-pa>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ta>a:before,
+.weglot-flags.flag-3.wg-ta>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ta>a:before,
+.weglot-flags.flag-2.wg-ta>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ta>a:before,
+.weglot-flags.flag-1.wg-ta>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ta>a:before,
+.weglot-flags.flag-0.wg-ta>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-te>a:before,
+.weglot-flags.flag-3.wg-te>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-te>a:before,
+.weglot-flags.flag-2.wg-te>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-te>a:before,
+.weglot-flags.flag-1.wg-te>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-te>a:before,
+.weglot-flags.flag-0.wg-te>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-tl>a:before,
+.weglot-flags.flag-3.wg-tl>span:before {
+    background-image: url("../images/in.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-tl>a:before,
+.weglot-flags.flag-2.wg-tl>span:before {
+    background-image: url("../images/in_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-tl>a:before,
+.weglot-flags.flag-1.wg-tl>span:before {
+    background-image: url("../images/in_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-tl>a:before,
+.weglot-flags.flag-0.wg-tl>span:before {
+    background-image: url("../images/in_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ha>a:before,
+.weglot-flags.flag-3.wg-ha>span:before {
+    background-image: url("../images/ne_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ha>a:before,
+.weglot-flags.flag-2.wg-ha>span:before {
+    background-image: url("../images/ne.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ha>a:before,
+.weglot-flags.flag-1.wg-ha>span:before {
+    background-image: url("../images/ne_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ha>a:before,
+.weglot-flags.flag-0.wg-ha>span:before {
+    background-image: url("../images/ne_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ig>a:before,
+.weglot-flags.flag-3.wg-ig>span:before {
+    background-image: url("../images/ne_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ig>a:before,
+.weglot-flags.flag-2.wg-ig>span:before {
+    background-image: url("../images/ne.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ig>a:before,
+.weglot-flags.flag-1.wg-ig>span:before {
+    background-image: url("../images/ne_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ig>a:before,
+.weglot-flags.flag-0.wg-ig>span:before {
+    background-image: url("../images/ne_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-he>a:before,
+.weglot-flags.flag-3.wg-he>span:before {
+    background-image: url("../images/il.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-he>a:before,
+.weglot-flags.flag-2.wg-he>span:before {
+    background-image: url("../images/il_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-he>a:before,
+.weglot-flags.flag-1.wg-he>span:before {
+    background-image: url("../images/il_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-he>a:before,
+.weglot-flags.flag-0.wg-he>span:before {
+    background-image: url("../images/il_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-yi>a:before,
+.weglot-flags.flag-3.wg-yi>span:before {
+    background-image: url("../images/il.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-yi>a:before,
+.weglot-flags.flag-2.wg-yi>span:before {
+    background-image: url("../images/il_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-yi>a:before,
+.weglot-flags.flag-1.wg-yi>span:before {
+    background-image: url("../images/il_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-yi>a:before,
+.weglot-flags.flag-0.wg-yi>span:before {
+    background-image: url("../images/il_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-hr>a:before,
+.weglot-flags.flag-3.wg-hr>span:before {
+    background-image: url("../images/hr.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-hr>a:before,
+.weglot-flags.flag-2.wg-hr>span:before {
+    background-image: url("../images/hr_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-hr>a:before,
+.weglot-flags.flag-1.wg-hr>span:before {
+    background-image: url("../images/hr_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-hr>a:before,
+.weglot-flags.flag-0.wg-hr>span:before {
+    background-image: url("../images/hr_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ht>a:before,
+.weglot-flags.flag-3.wg-ht>span:before {
+    background-image: url("../images/ht_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ht>a:before,
+.weglot-flags.flag-2.wg-ht>span:before {
+    background-image: url("../images/ht_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ht>a:before,
+.weglot-flags.flag-1.wg-ht>span:before {
+    background-image: url("../images/ht_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ht>a:before,
+.weglot-flags.flag-0.wg-ht>span:before {
+    background-image: url("../images/ht.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-hu>a:before,
+.weglot-flags.flag-3.wg-hu>span:before {
+    background-image: url("../images/hu_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-hu>a:before,
+.weglot-flags.flag-2.wg-hu>span:before {
+    background-image: url("../images/hu_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-hu>a:before,
+.weglot-flags.flag-1.wg-hu>span:before {
+    background-image: url("../images/hu.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-hu>a:before,
+.weglot-flags.flag-0.wg-hu>span:before {
+    background-image: url("../images/hu_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-hw>a:before,
+.weglot-flags.flag-3.wg-hw>span:before {
+    background-image: url("../images/hw_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-hw>a:before,
+.weglot-flags.flag-2.wg-hw>span:before {
+    background-image: url("../images/hw.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-hw>a:before,
+.weglot-flags.flag-1.wg-hw>span:before {
+    background-image: url("../images/hw_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-hw>a:before,
+.weglot-flags.flag-0.wg-hw>span:before {
+    background-image: url("../images/hw_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-hy>a:before,
+.weglot-flags.flag-3.wg-hy>span:before {
+    background-image: url("../images/am_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-hy>a:before,
+.weglot-flags.flag-2.wg-hy>span:before {
+    background-image: url("../images/am_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-hy>a:before,
+.weglot-flags.flag-1.wg-hy>span:before {
+    background-image: url("../images/am.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-hy>a:before,
+.weglot-flags.flag-0.wg-hy>span:before {
+    background-image: url("../images/am_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-id>a:before,
+.weglot-flags.flag-3.wg-id>span:before {
+    background-image: url("../images/id_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-id>a:before,
+.weglot-flags.flag-2.wg-id>span:before {
+    background-image: url("../images/id.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-id>a:before,
+.weglot-flags.flag-1.wg-id>span:before {
+    background-image: url("../images/id_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-id>a:before,
+.weglot-flags.flag-0.wg-id>span:before {
+    background-image: url("../images/id_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-jv>a:before,
+.weglot-flags.flag-3.wg-jv>span:before {
+    background-image: url("../images/id_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-jv>a:before,
+.weglot-flags.flag-2.wg-jv>span:before {
+    background-image: url("../images/id.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-jv>a:before,
+.weglot-flags.flag-1.wg-jv>span:before {
+    background-image: url("../images/id_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-jv>a:before,
+.weglot-flags.flag-0.wg-jv>span:before {
+    background-image: url("../images/id_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-is>a:before,
+.weglot-flags.flag-3.wg-is>span:before {
+    background-image: url("../images/is.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-is>a:before,
+.weglot-flags.flag-2.wg-is>span:before {
+    background-image: url("../images/is_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-is>a:before,
+.weglot-flags.flag-1.wg-is>span:before {
+    background-image: url("../images/is_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-is>a:before,
+.weglot-flags.flag-0.wg-is>span:before {
+    background-image: url("../images/is_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-it>a:before,
+.weglot-flags.flag-3.wg-it>span:before {
+    background-image: url("../images/it.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-it>a:before,
+.weglot-flags.flag-2.wg-it>span:before {
+    background-image: url("../images/it_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-it>a:before,
+.weglot-flags.flag-1.wg-it>span:before {
+    background-image: url("../images/it_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-it>a:before,
+.weglot-flags.flag-0.wg-it>span:before {
+    background-image: url("../images/it_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-la>a:before,
+.weglot-flags.flag-3.wg-la>span:before {
+    background-image: url("../images/it.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-la>a:before,
+.weglot-flags.flag-2.wg-la>span:before {
+    background-image: url("../images/it_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-la>a:before,
+.weglot-flags.flag-1.wg-la>span:before {
+    background-image: url("../images/it_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-la>a:before,
+.weglot-flags.flag-0.wg-la>span:before {
+    background-image: url("../images/it_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ja>a:before,
+.weglot-flags.flag-3.wg-ja>span:before {
+    background-image: url("../images/jp.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ja>a:before,
+.weglot-flags.flag-2.wg-ja>span:before {
+    background-image: url("../images/jp_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ja>a:before,
+.weglot-flags.flag-1.wg-ja>span:before {
+    background-image: url("../images/jp_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ja>a:before,
+.weglot-flags.flag-0.wg-ja>span:before {
+    background-image: url("../images/jp_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ka>a:before,
+.weglot-flags.flag-3.wg-ka>span:before {
+    background-image: url("../images/ge.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ka>a:before,
+.weglot-flags.flag-2.wg-ka>span:before {
+    background-image: url("../images/ge_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ka>a:before,
+.weglot-flags.flag-1.wg-ka>span:before {
+    background-image: url("../images/ge_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ka>a:before,
+.weglot-flags.flag-0.wg-ka>span:before {
+    background-image: url("../images/ge_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-kk>a:before,
+.weglot-flags.flag-3.wg-kk>span:before {
+    background-image: url("../images/kz.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-kk>a:before,
+.weglot-flags.flag-2.wg-kk>span:before {
+    background-image: url("../images/kz_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-kk>a:before,
+.weglot-flags.flag-1.wg-kk>span:before {
+    background-image: url("../images/kz_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-kk>a:before,
+.weglot-flags.flag-0.wg-kk>span:before {
+    background-image: url("../images/kz_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-km>a:before,
+.weglot-flags.flag-3.wg-km>span:before {
+    background-image: url("../images/kh.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-km>a:before,
+.weglot-flags.flag-2.wg-km>span:before {
+    background-image: url("../images/kh_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-km>a:before,
+.weglot-flags.flag-1.wg-km>span:before {
+    background-image: url("../images/kh_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-km>a:before,
+.weglot-flags.flag-0.wg-km>span:before {
+    background-image: url("../images/kh_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ko>a:before,
+.weglot-flags.flag-3.wg-ko>span:before {
+    background-image: url("../images/kr.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ko>a:before,
+.weglot-flags.flag-2.wg-ko>span:before {
+    background-image: url("../images/kr_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ko>a:before,
+.weglot-flags.flag-1.wg-ko>span:before {
+    background-image: url("../images/kr_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ko>a:before,
+.weglot-flags.flag-0.wg-ko>span:before {
+    background-image: url("../images/kr_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ku>a:before,
+.weglot-flags.flag-3.wg-ku>span:before {
+    background-image: url("../images/iq.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ku>a:before,
+.weglot-flags.flag-2.wg-ku>span:before {
+    background-image: url("../images/iq_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ku>a:before,
+.weglot-flags.flag-1.wg-ku>span:before {
+    background-image: url("../images/iq_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ku>a:before,
+.weglot-flags.flag-0.wg-ku>span:before {
+    background-image: url("../images/iq_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ky>a:before,
+.weglot-flags.flag-3.wg-ky>span:before {
+    background-image: url("../images/kg.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ky>a:before,
+.weglot-flags.flag-2.wg-ky>span:before {
+    background-image: url("../images/kg_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ky>a:before,
+.weglot-flags.flag-1.wg-ky>span:before {
+    background-image: url("../images/kg_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ky>a:before,
+.weglot-flags.flag-0.wg-ky>span:before {
+    background-image: url("../images/kg_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-lb>a:before,
+.weglot-flags.flag-3.wg-lb>span:before {
+    background-image: url("../images/lu.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-lb>a:before,
+.weglot-flags.flag-2.wg-lb>span:before {
+    background-image: url("../images/lu_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-lb>a:before,
+.weglot-flags.flag-1.wg-lb>span:before {
+    background-image: url("../images/lu_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-lb>a:before,
+.weglot-flags.flag-0.wg-lb>span:before {
+    background-image: url("../images/lu_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-lo>a:before,
+.weglot-flags.flag-3.wg-lo>span:before {
+    background-image: url("../images/la_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-lo>a:before,
+.weglot-flags.flag-2.wg-lo>span:before {
+    background-image: url("../images/la_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-lo>a:before,
+.weglot-flags.flag-1.wg-lo>span:before {
+    background-image: url("../images/la_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-lo>a:before,
+.weglot-flags.flag-0.wg-lo>span:before {
+    background-image: url("../images/la.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-lt>a:before,
+.weglot-flags.flag-3.wg-lt>span:before {
+    background-image: url("../images/lt_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-lt>a:before,
+.weglot-flags.flag-2.wg-lt>span:before {
+    background-image: url("../images/lt.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-lt>a:before,
+.weglot-flags.flag-1.wg-lt>span:before {
+    background-image: url("../images/lt_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-lt>a:before,
+.weglot-flags.flag-0.wg-lt>span:before {
+    background-image: url("../images/lt_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-lv>a:before,
+.weglot-flags.flag-3.wg-lv>span:before {
+    background-image: url("../images/lv.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-lv>a:before,
+.weglot-flags.flag-2.wg-lv>span:before {
+    background-image: url("../images/lv_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-lv>a:before,
+.weglot-flags.flag-1.wg-lv>span:before {
+    background-image: url("../images/lv_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-lv>a:before,
+.weglot-flags.flag-0.wg-lv>span:before {
+    background-image: url("../images/lv_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-mg>a:before,
+.weglot-flags.flag-3.wg-mg>span:before {
+    background-image: url("../images/mg.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-mg>a:before,
+.weglot-flags.flag-2.wg-mg>span:before {
+    background-image: url("../images/mg_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-mg>a:before,
+.weglot-flags.flag-1.wg-mg>span:before {
+    background-image: url("../images/mg_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-mg>a:before,
+.weglot-flags.flag-0.wg-mg>span:before {
+    background-image: url("../images/mg_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-mi>a:before,
+.weglot-flags.flag-3.wg-mi>span:before {
+    background-image: url("../images/nz.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-mi>a:before,
+.weglot-flags.flag-2.wg-mi>span:before {
+    background-image: url("../images/nz_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-mi>a:before,
+.weglot-flags.flag-1.wg-mi>span:before {
+    background-image: url("../images/nz_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-mi>a:before,
+.weglot-flags.flag-0.wg-mi>span:before {
+    background-image: url("../images/nz_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-mk>a:before,
+.weglot-flags.flag-3.wg-mk>span:before {
+    background-image: url("../images/mk.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-mk>a:before,
+.weglot-flags.flag-2.wg-mk>span:before {
+    background-image: url("../images/mk_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-mk>a:before,
+.weglot-flags.flag-1.wg-mk>span:before {
+    background-image: url("../images/mk_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-mk>a:before,
+.weglot-flags.flag-0.wg-mk>span:before {
+    background-image: url("../images/mk_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-mn>a:before,
+.weglot-flags.flag-3.wg-mn>span:before {
+    background-image: url("../images/mn_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-mn>a:before,
+.weglot-flags.flag-2.wg-mn>span:before {
+    background-image: url("../images/mn_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-mn>a:before,
+.weglot-flags.flag-1.wg-mn>span:before {
+    background-image: url("../images/mn.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-mn>a:before,
+.weglot-flags.flag-0.wg-mn>span:before {
+    background-image: url("../images/mn_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ms>a:before,
+.weglot-flags.flag-3.wg-ms>span:before {
+    background-image: url("../images/my_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ms>a:before,
+.weglot-flags.flag-2.wg-ms>span:before {
+    background-image: url("../images/my_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ms>a:before,
+.weglot-flags.flag-1.wg-ms>span:before {
+    background-image: url("../images/my.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ms>a:before,
+.weglot-flags.flag-0.wg-ms>span:before {
+    background-image: url("../images/my_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-mt>a:before,
+.weglot-flags.flag-3.wg-mt>span:before {
+    background-image: url("../images/mt.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-mt>a:before,
+.weglot-flags.flag-2.wg-mt>span:before {
+    background-image: url("../images/mt_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-mt>a:before,
+.weglot-flags.flag-1.wg-mt>span:before {
+    background-image: url("../images/mt_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-mt>a:before,
+.weglot-flags.flag-0.wg-mt>span:before {
+    background-image: url("../images/mt_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-my>a:before,
+.weglot-flags.flag-3.wg-my>span:before {
+    background-image: url("../images/mm_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-my>a:before,
+.weglot-flags.flag-2.wg-my>span:before {
+    background-image: url("../images/mm.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-my>a:before,
+.weglot-flags.flag-1.wg-my>span:before {
+    background-image: url("../images/mm_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-my>a:before,
+.weglot-flags.flag-0.wg-my>span:before {
+    background-image: url("../images/mm_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ne>a:before,
+.weglot-flags.flag-3.wg-ne>span:before {
+    background-image: url("../images/np_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ne>a:before,
+.weglot-flags.flag-2.wg-ne>span:before {
+    background-image: url("../images/np_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ne>a:before,
+.weglot-flags.flag-1.wg-ne>span:before {
+    background-image: url("../images/np.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ne>a:before,
+.weglot-flags.flag-0.wg-ne>span:before {
+    background-image: url("../images/np_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-no>a:before,
+.weglot-flags.flag-3.wg-no>span:before {
+    background-image: url("../images/no_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-no>a:before,
+.weglot-flags.flag-2.wg-no>span:before {
+    background-image: url("../images/no_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-no>a:before,
+.weglot-flags.flag-1.wg-no>span:before {
+    background-image: url("../images/no.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-no>a:before,
+.weglot-flags.flag-0.wg-no>span:before {
+    background-image: url("../images/no_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ny>a:before,
+.weglot-flags.flag-3.wg-ny>span:before {
+    background-image: url("../images/mw_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ny>a:before,
+.weglot-flags.flag-2.wg-ny>span:before {
+    background-image: url("../images/mw_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ny>a:before,
+.weglot-flags.flag-1.wg-ny>span:before {
+    background-image: url("../images/mw.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ny>a:before,
+.weglot-flags.flag-0.wg-ny>span:before {
+    background-image: url("../images/mw_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-pl>a:before,
+.weglot-flags.flag-3.wg-pl>span:before {
+    background-image: url("../images/pl_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-pl>a:before,
+.weglot-flags.flag-2.wg-pl>span:before {
+    background-image: url("../images/pl_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-pl>a:before,
+.weglot-flags.flag-1.wg-pl>span:before {
+    background-image: url("../images/pl_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-pl>a:before,
+.weglot-flags.flag-0.wg-pl>span:before {
+    background-image: url("../images/pl.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ps>a:before,
+.weglot-flags.flag-3.wg-ps>span:before {
+    background-image: url("../images/af.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ps>a:before,
+.weglot-flags.flag-2.wg-ps>span:before {
+    background-image: url("../images/af_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ps>a:before,
+.weglot-flags.flag-1.wg-ps>span:before {
+    background-image: url("../images/af_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ps>a:before,
+.weglot-flags.flag-0.wg-ps>span:before {
+    background-image: url("../images/af_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-pt>a:before,
+.weglot-flags.flag-3.wg-pt>span:before {
+    background-image: url("../images/pt_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-pt>a:before,
+.weglot-flags.flag-2.wg-pt>span:before {
+    background-image: url("../images/pt.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-pt>a:before,
+.weglot-flags.flag-1.wg-pt>span:before {
+    background-image: url("../images/pt_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-pt>a:before,
+.weglot-flags.flag-0.wg-pt>span:before {
+    background-image: url("../images/pt_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ro>a:before,
+.weglot-flags.flag-3.wg-ro>span:before {
+    background-image: url("../images/ro_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ro>a:before,
+.weglot-flags.flag-2.wg-ro>span:before {
+    background-image: url("../images/ro.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ro>a:before,
+.weglot-flags.flag-1.wg-ro>span:before {
+    background-image: url("../images/ro_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ro>a:before,
+.weglot-flags.flag-0.wg-ro>span:before {
+    background-image: url("../images/ro_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sd>a:before,
+.weglot-flags.flag-3.wg-sd>span:before {
+    background-image: url("../images/pk_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sd>a:before,
+.weglot-flags.flag-2.wg-sd>span:before {
+    background-image: url("../images/pk.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sd>a:before,
+.weglot-flags.flag-1.wg-sd>span:before {
+    background-image: url("../images/pk_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sd>a:before,
+.weglot-flags.flag-0.wg-sd>span:before {
+    background-image: url("../images/pk_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ur>a:before,
+.weglot-flags.flag-3.wg-ur>span:before {
+    background-image: url("../images/pk_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ur>a:before,
+.weglot-flags.flag-2.wg-ur>span:before {
+    background-image: url("../images/pk.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ur>a:before,
+.weglot-flags.flag-1.wg-ur>span:before {
+    background-image: url("../images/pk_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ur>a:before,
+.weglot-flags.flag-0.wg-ur>span:before {
+    background-image: url("../images/pk_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-si>a:before,
+.weglot-flags.flag-3.wg-si>span:before {
+    background-image: url("../images/lk_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-si>a:before,
+.weglot-flags.flag-2.wg-si>span:before {
+    background-image: url("../images/lk.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-si>a:before,
+.weglot-flags.flag-1.wg-si>span:before {
+    background-image: url("../images/lk_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-si>a:before,
+.weglot-flags.flag-0.wg-si>span:before {
+    background-image: url("../images/lk_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sk>a:before,
+.weglot-flags.flag-3.wg-sk>span:before {
+    background-image: url("../images/sk_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sk>a:before,
+.weglot-flags.flag-2.wg-sk>span:before {
+    background-image: url("../images/sk_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sk>a:before,
+.weglot-flags.flag-1.wg-sk>span:before {
+    background-image: url("../images/sk.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sk>a:before,
+.weglot-flags.flag-0.wg-sk>span:before {
+    background-image: url("../images/sk_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sl>a:before,
+.weglot-flags.flag-3.wg-sl>span:before {
+    background-image: url("../images/si_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sl>a:before,
+.weglot-flags.flag-2.wg-sl>span:before {
+    background-image: url("../images/si_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sl>a:before,
+.weglot-flags.flag-1.wg-sl>span:before {
+    background-image: url("../images/si.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sl>a:before,
+.weglot-flags.flag-0.wg-sl>span:before {
+    background-image: url("../images/si_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sm>a:before,
+.weglot-flags.flag-3.wg-sm>span:before {
+    background-image: url("../images/ws_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sm>a:before,
+.weglot-flags.flag-2.wg-sm>span:before {
+    background-image: url("../images/ws.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sm>a:before,
+.weglot-flags.flag-1.wg-sm>span:before {
+    background-image: url("../images/ws_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sm>a:before,
+.weglot-flags.flag-0.wg-sm>span:before {
+    background-image: url("../images/ws_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sn>a:before,
+.weglot-flags.flag-3.wg-sn>span:before {
+    background-image: url("../images/zw_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sn>a:before,
+.weglot-flags.flag-2.wg-sn>span:before {
+    background-image: url("../images/zw.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sn>a:before,
+.weglot-flags.flag-1.wg-sn>span:before {
+    background-image: url("../images/zw_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sn>a:before,
+.weglot-flags.flag-0.wg-sn>span:before {
+    background-image: url("../images/zw_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-so>a:before,
+.weglot-flags.flag-3.wg-so>span:before {
+    background-image: url("../images/so_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-so>a:before,
+.weglot-flags.flag-2.wg-so>span:before {
+    background-image: url("../images/so_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-so>a:before,
+.weglot-flags.flag-1.wg-so>span:before {
+    background-image: url("../images/so.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-so>a:before,
+.weglot-flags.flag-0.wg-so>span:before {
+    background-image: url("../images/so_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sq>a:before,
+.weglot-flags.flag-3.wg-sq>span:before {
+    background-image: url("../images/al_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sq>a:before,
+.weglot-flags.flag-2.wg-sq>span:before {
+    background-image: url("../images/al.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sq>a:before,
+.weglot-flags.flag-1.wg-sq>span:before {
+    background-image: url("../images/al_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sq>a:before,
+.weglot-flags.flag-0.wg-sq>span:before {
+    background-image: url("../images/al_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sa>a:before,
+.weglot-flags.flag-3.wg-sa>span:before {
+    background-image: url("../images/rs_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sa>a:before,
+.weglot-flags.flag-2.wg-sa>span:before {
+    background-image: url("../images/rs.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sa>a:before,
+.weglot-flags.flag-1.wg-sa>span:before {
+    background-image: url("../images/rs_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sa>a:before,
+.weglot-flags.flag-0.wg-sa>span:before {
+    background-image: url("../images/rs_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sr-latn>a:before,
+.weglot-flags.flag-3.wg-sr-latn>span:before {
+    background-image: url("../images/rs_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sr-latn>a:before,
+.weglot-flags.flag-2.wg-sr-latn>span:before {
+    background-image: url("../images/rs.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sr-latn>a:before,
+.weglot-flags.flag-1.wg-sr-latn>span:before {
+    background-image: url("../images/rs_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sr-latn>a:before,
+.weglot-flags.flag-0.wg-sr-latn>span:before {
+    background-image: url("../images/rs_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sr>a:before,
+.weglot-flags.flag-3.wg-sr>span:before {
+    background-image: url("../images/rs_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sr>a:before,
+.weglot-flags.flag-2.wg-sr>span:before {
+    background-image: url("../images/rs.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sr>a:before,
+.weglot-flags.flag-1.wg-sr>span:before {
+    background-image: url("../images/rs_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sr>a:before,
+.weglot-flags.flag-0.wg-sr>span:before {
+    background-image: url("../images/rs_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-st>a:before,
+.weglot-flags.flag-3.wg-st>span:before {
+    background-image: url("../images/ng_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-st>a:before,
+.weglot-flags.flag-2.wg-st>span:before {
+    background-image: url("../images/ng.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-st>a:before,
+.weglot-flags.flag-1.wg-st>span:before {
+    background-image: url("../images/ng_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-st>a:before,
+.weglot-flags.flag-0.wg-st>span:before {
+    background-image: url("../images/ng_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-yo>a:before,
+.weglot-flags.flag-3.wg-yo>span:before {
+    background-image: url("../images/ng_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-yo>a:before,
+.weglot-flags.flag-2.wg-yo>span:before {
+    background-image: url("../images/ng.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-yo>a:before,
+.weglot-flags.flag-1.wg-yo>span:before {
+    background-image: url("../images/ng_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-yo>a:before,
+.weglot-flags.flag-0.wg-yo>span:before {
+    background-image: url("../images/ng_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-su>a:before,
+.weglot-flags.flag-3.wg-su>span:before {
+    background-image: url("../images/sd.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-su>a:before,
+.weglot-flags.flag-2.wg-su>span:before {
+    background-image: url("../images/sd_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-su>a:before,
+.weglot-flags.flag-1.wg-su>span:before {
+    background-image: url("../images/sd_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-su>a:before,
+.weglot-flags.flag-0.wg-su>span:before {
+    background-image: url("../images/sd_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sv>a:before,
+.weglot-flags.flag-3.wg-sv>span:before {
+    background-image: url("../images/se_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sv>a:before,
+.weglot-flags.flag-2.wg-sv>span:before {
+    background-image: url("../images/se.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sv>a:before,
+.weglot-flags.flag-1.wg-sv>span:before {
+    background-image: url("../images/se_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sv>a:before,
+.weglot-flags.flag-0.wg-sv>span:before {
+    background-image: url("../images/se_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-sw>a:before,
+.weglot-flags.flag-3.wg-sw>span:before {
+    background-image: url("../images/ke_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-sw>a:before,
+.weglot-flags.flag-2.wg-sw>span:before {
+    background-image: url("../images/ke_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-sw>a:before,
+.weglot-flags.flag-1.wg-sw>span:before {
+    background-image: url("../images/ke.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-sw>a:before,
+.weglot-flags.flag-0.wg-sw>span:before {
+    background-image: url("../images/ke_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-tg>a:before,
+.weglot-flags.flag-3.wg-tg>span:before {
+    background-image: url("../images/tj.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-tg>a:before,
+.weglot-flags.flag-2.wg-tg>span:before {
+    background-image: url("../images/tj_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-tg>a:before,
+.weglot-flags.flag-1.wg-tg>span:before {
+    background-image: url("../images/tj_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-tg>a:before,
+.weglot-flags.flag-0.wg-tg>span:before {
+    background-image: url("../images/tj_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-th>a:before,
+.weglot-flags.flag-3.wg-th>span:before {
+    background-image: url("../images/th_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-th>a:before,
+.weglot-flags.flag-2.wg-th>span:before {
+    background-image: url("../images/th.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-th>a:before,
+.weglot-flags.flag-1.wg-th>span:before {
+    background-image: url("../images/th_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-th>a:before,
+.weglot-flags.flag-0.wg-th>span:before {
+    background-image: url("../images/th_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-to>a:before,
+.weglot-flags.flag-3.wg-to>span:before {
+    background-image: url("../images/to_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-to>a:before,
+.weglot-flags.flag-2.wg-to>span:before {
+    background-image: url("../images/to_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-to>a:before,
+.weglot-flags.flag-1.wg-to>span:before {
+    background-image: url("../images/to_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-to>a:before,
+.weglot-flags.flag-0.wg-to>span:before {
+    background-image: url("../images/to.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-tk>a:before,
+.weglot-flags.flag-3.wg-tk>span:before {
+    background-image: url("../images/tr_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-tk>a:before,
+.weglot-flags.flag-2.wg-tk>span:before {
+    background-image: url("../images/tr.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-tk>a:before,
+.weglot-flags.flag-1.wg-tk>span:before {
+    background-image: url("../images/tr_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-tk>a:before,
+.weglot-flags.flag-0.wg-tk>span:before {
+    background-image: url("../images/tr_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-tr>a:before,
+.weglot-flags.flag-3.wg-tr>span:before {
+    background-image: url("../images/tr_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-tr>a:before,
+.weglot-flags.flag-2.wg-tr>span:before {
+    background-image: url("../images/tr.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-tr>a:before,
+.weglot-flags.flag-1.wg-tr>span:before {
+    background-image: url("../images/tr_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-tr>a:before,
+.weglot-flags.flag-0.wg-tr>span:before {
+    background-image: url("../images/tr_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-tt>a:before,
+.weglot-flags.flag-3.wg-tt>span:before {
+    background-image: url("../images/tr_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-tt>a:before,
+.weglot-flags.flag-2.wg-tt>span:before {
+    background-image: url("../images/tr.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-tt>a:before,
+.weglot-flags.flag-1.wg-tt>span:before {
+    background-image: url("../images/tr_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-tt>a:before,
+.weglot-flags.flag-0.wg-tt>span:before {
+    background-image: url("../images/tr_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-tw>a:before,
+.weglot-flags.flag-3.wg-tw>span:before {
+    background-image: url("../images/tw.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-tw>a:before,
+.weglot-flags.flag-2.wg-tw>span:before {
+    background-image: url("../images/tw_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-tw>a:before,
+.weglot-flags.flag-1.wg-tw>span:before {
+    background-image: url("../images/tw_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-tw>a:before,
+.weglot-flags.flag-0.wg-tw>span:before {
+    background-image: url("../images/tw_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-zh-tw>a:before,
+.weglot-flags.flag-3.wg-zh-tw>span:before {
+    background-image: url("../images/tw.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-zh-tw>a:before,
+.weglot-flags.flag-2.wg-zh-tw>span:before {
+    background-image: url("../images/tw_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-zh-tw>a:before,
+.weglot-flags.flag-1.wg-zh-tw>span:before {
+    background-image: url("../images/tw_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-zh-tw>a:before,
+.weglot-flags.flag-0.wg-zh-tw>span:before {
+    background-image: url("../images/tw_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ty>a:before,
+.weglot-flags.flag-3.wg-ty>span:before {
+    background-image: url("../images/pf.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ty>a:before,
+.weglot-flags.flag-2.wg-ty>span:before {
+    background-image: url("../images/pf_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ty>a:before,
+.weglot-flags.flag-1.wg-ty>span:before {
+    background-image: url("../images/pf_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ty>a:before,
+.weglot-flags.flag-0.wg-ty>span:before {
+    background-image: url("../images/pf_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-uk>a:before,
+.weglot-flags.flag-3.wg-uk>span:before {
+    background-image: url("../images/ua_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-uk>a:before,
+.weglot-flags.flag-2.wg-uk>span:before {
+    background-image: url("../images/ua.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-uk>a:before,
+.weglot-flags.flag-1.wg-uk>span:before {
+    background-image: url("../images/ua_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-uk>a:before,
+.weglot-flags.flag-0.wg-uk>span:before {
+    background-image: url("../images/ua_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-uz>a:before,
+.weglot-flags.flag-3.wg-uz>span:before {
+    background-image: url("../images/uz_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-uz>a:before,
+.weglot-flags.flag-2.wg-uz>span:before {
+    background-image: url("../images/uz_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-uz>a:before,
+.weglot-flags.flag-1.wg-uz>span:before {
+    background-image: url("../images/uz_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-uz>a:before,
+.weglot-flags.flag-0.wg-uz>span:before {
+    background-image: url("../images/uz.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-vi>a:before,
+.weglot-flags.flag-3.wg-vi>span:before {
+    background-image: url("../images/vn_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-vi>a:before,
+.weglot-flags.flag-2.wg-vi>span:before {
+    background-image: url("../images/vn_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-vi>a:before,
+.weglot-flags.flag-1.wg-vi>span:before {
+    background-image: url("../images/vn.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-vi>a:before,
+.weglot-flags.flag-0.wg-vi>span:before {
+    background-image: url("../images/vn_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-zh>a:before,
+.weglot-flags.flag-3.wg-zh>span:before {
+    background-image: url("../images/cn_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-zh>a:before,
+.weglot-flags.flag-2.wg-zh>span:before {
+    background-image: url("../images/cn_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-zh>a:before,
+.weglot-flags.flag-1.wg-zh>span:before {
+    background-image: url("../images/cn.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-zh>a:before,
+.weglot-flags.flag-0.wg-zh>span:before {
+    background-image: url("../images/cn_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-hm>a:before,
+.weglot-flags.flag-3.wg-hm>span:before {
+    background-image: url("../images/hm_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-hm>a:before,
+.weglot-flags.flag-2.wg-hm>span:before {
+    background-image: url("../images/hm.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-hm>a:before,
+.weglot-flags.flag-1.wg-hm>span:before {
+    background-image: url("../images/hm_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-hm>a:before,
+.weglot-flags.flag-0.wg-hm>span:before {
+    background-image: url("../images/hm_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-hmn>a:before,
+.weglot-flags.flag-3.wg-hmn>span:before {
+    background-image: url("../images/hm_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-hmn>a:before,
+.weglot-flags.flag-2.wg-hmn>span:before {
+    background-image: url("../images/hm.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-hmn>a:before,
+.weglot-flags.flag-1.wg-hmn>span:before {
+    background-image: url("../images/hm_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-hmn>a:before,
+.weglot-flags.flag-0.wg-hmn>span:before {
+    background-image: url("../images/hm_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-ug>a:before,
+.weglot-flags.flag-3.wg-ug>span:before {
+    background-image: url("../images/ug_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-ug>a:before,
+.weglot-flags.flag-2.wg-ug>span:before {
+    background-image: url("../images/ug_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-ug>a:before,
+.weglot-flags.flag-1.wg-ug>span:before {
+    background-image: url("../images/ug_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-ug>a:before,
+.weglot-flags.flag-0.wg-ug>span:before {
+    background-image: url("../images/ug.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-fc>a:before,
+.weglot-flags.flag-3.wg-fc>span:before {
+    background-image: url("../images/ca_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-fc>a:before,
+.weglot-flags.flag-2.wg-fc>span:before {
+    background-image: url("../images/ca_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-fc>a:before,
+.weglot-flags.flag-1.wg-fc>span:before {
+    background-image: url("../images/ca_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-fc>a:before,
+.weglot-flags.flag-0.wg-fc>span:before {
+    background-image: url("../images/ca.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-fr-ca>a:before,
+.weglot-flags.flag-3.wg-fr-ca>span:before {
+    background-image: url("../images/ca_3.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-fr-ca>a:before,
+.weglot-flags.flag-2.wg-fr-ca>span:before {
+    background-image: url("../images/ca_1.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-fr-ca>a:before,
+.weglot-flags.flag-1.wg-fr-ca>span:before {
+    background-image: url("../images/ca_2.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-fr-ca>a:before,
+.weglot-flags.flag-0.wg-fr-ca>span:before {
+    background-image: url("../images/ca.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-3.wg-rw>a:before,
+.weglot-flags.flag-3.wg-rw>span:before {
+    background-image: url("../images/rw_2.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-2.wg-rw>a:before,
+.weglot-flags.flag-2.wg-rw>span:before {
+    background-image: url("../images/rw.svg");
+    background-position: unset !important;
+    width: 24px !important
+}
+
+.weglot-flags.flag-1.wg-rw>a:before,
+.weglot-flags.flag-1.wg-rw>span:before {
+    background-image: url("../images/rw_3.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0.wg-rw>a:before,
+.weglot-flags.flag-0.wg-rw>span:before {
+    background-image: url("../images/rw_1.svg");
+    background-position: unset !important;
+    width: 27px !important
+}
+
+.weglot-flags.flag-0>a:before,
+.weglot-flags.flag-0>span:before {
+    background-position: unset !important;
+    width: 27px !important
+}
