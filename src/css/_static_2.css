@@ -6128,3 +6128,201 @@ html[dir=rtl] .weglot-flags span:before {
     background-position: unset !important;
     width: 27px !important
 }
+
+/* ===============================
+   WP Emoji reset
+================================ */
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+/* ===============================
+   WP Block Library – Theme
+================================ */
+.wp-block-audio figcaption,
+.wp-block-embed figcaption,
+.wp-block-table figcaption,
+.wp-block-video figcaption,
+.wp-block-image figcaption {
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+}
+
+.is-dark-theme .wp-block-audio figcaption,
+.is-dark-theme .wp-block-embed figcaption,
+.is-dark-theme .wp-block-table figcaption,
+.is-dark-theme .wp-block-video figcaption,
+.is-dark-theme .wp-block-image figcaption {
+  color: #ffffffa6;
+}
+
+.wp-block-audio,
+.wp-block-embed,
+.wp-block-image,
+.wp-block-video,
+.wp-block-table {
+  margin: 0 0 1em;
+}
+
+.wp-block-code {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Menlo, Consolas, Monaco, monospace;
+  padding: 0.8em 1em;
+}
+
+.wp-block-pullquote {
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  margin-bottom: 1.75em;
+  color: currentColor;
+}
+
+.wp-block-pullquote cite,
+.wp-block-pullquote footer,
+.wp-block-pullquote__citation {
+  font-size: 0.8125em;
+  text-transform: uppercase;
+}
+
+.wp-block-quote {
+  border-left: 0.25em solid;
+  padding-left: 1em;
+  margin-bottom: 1.75em;
+}
+
+.wp-block-search__button {
+  border: 1px solid #ccc;
+  padding: 0.375em 0.625em;
+}
+
+.wp-block-group.has-background {
+  padding: 1.25em 2.375em;
+}
+
+/* ===============================
+   BEAPI – Accordion
+================================ */
+.wp-block-beapi-accordion {
+  --wp--beapi--accordion--border: 1px solid #000;
+  --wp--beapi--accordion--font-size: var(--wp--preset--font-size--h-3);
+  --wp--beapi--accordion--font-weigt: 400;
+  --wp--beapi--accordion--padding: 1rem 0;
+  --wp--beapi--accordion--padding-wiht-background: 1rem;
+  --wp--beapi--accordion--icon-size: 24px;
+}
+
+.wp-block-beapi-accordion-summary {
+  display: flex;
+  align-items: center;
+  border-bottom: var(--wp--beapi--accordion--border);
+  padding: var(--wp--beapi--accordion--padding) !important;
+}
+
+.wp-block-beapi-accordion-panel {
+  display: none;
+}
+
+.wp-block-beapi-accordion-panel__inner {
+  padding: var(--wp--beapi--accordion--padding);
+}
+
+/* ===============================
+   BEAPI – Key Figure
+================================ */
+.wp-block-beapi-key-figure {
+  --wp--beapi--key-figure--desktop-size: 80px;
+  --wp--beapi--key-figure--mobile-size: 64px;
+  --wp--beapi--key-figure--suffix-desktop-size: 42px;
+  --wp--beapi--key-figure--suffix-mobile-size: 30px;
+  --wp--beapi--key-figure--description-desktop-size: 32px;
+  --wp--beapi--key-figure--description-mobile-size: 18px;
+}
+
+.wp-block-beapi-key-figure__key {
+  display: inline-flex;
+  align-items: center;
+}
+
+.wp-block-beapi-key-figure__number,
+.wp-block-beapi-key-figure__prefix {
+  font-weight: 300;
+  line-height: 1;
+  font-size: var(--wp--beapi--key-figure--mobile-size);
+}
+
+.wp-block-beapi-key-figure__suffix {
+  font-weight: 900;
+  margin-left: 5px;
+  font-size: var(--wp--beapi--key-figure--suffix-mobile-size);
+}
+
+.wp-block-beapi-key-figure__description {
+  margin-top: 8px;
+  font-size: var(--wp--beapi--key-figure--description-mobile-size);
+}
+
+@media (min-width: 782px) {
+  .wp-block-beapi-key-figure__number,
+  .wp-block-beapi-key-figure__prefix {
+    font-size: var(--wp--beapi--key-figure--desktop-size);
+  }
+
+  .wp-block-beapi-key-figure__suffix {
+    font-size: var(--wp--beapi--key-figure--suffix-desktop-size);
+  }
+
+  .wp-block-beapi-key-figure__description {
+    font-size: var(--wp--beapi--key-figure--description-desktop-size);
+  }
+}
+
+/* ===============================
+   BEAPI – Tabs
+================================ */
+.wp-block-beapi-tabs {
+  --wp--beapi--tabs--item-padding: 8px 32px;
+  --wp--beapi--tabs--panel-padding: 16px 32px;
+  --wp--beapi--tabs--panel-border: 1px solid #000;
+}
+
+.wp-block-beapi-tabs-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wp-block-beapi-tabs-nav-item {
+  padding: var(--wp--beapi--tabs--item-padding);
+  border-bottom: 4px solid transparent;
+}
+
+.wp-block-beapi-tabs-nav-item.is-active {
+  border-bottom-color: #000;
+}
+
+.wp-block-beapi-tabs-panel-item {
+  border-top: var(--wp--beapi--tabs--panel-border);
+  padding: var(--wp--beapi--tabs--panel-padding);
+}
+
+.nom_title {
+    font-size: 2.3rem;
+    font-weight: 700 ;
+    letter-spacing: -.125rem;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}

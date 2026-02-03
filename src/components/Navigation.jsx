@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useI18n } from "../components/I18nProvider";
+import LogoImg from "../images/logo.svg";
+
 
 const MenuBtnLink = ({ to, children }) => {
   return (
@@ -10,11 +13,7 @@ const MenuBtnLink = ({ to, children }) => {
       aria-haspopup="false"
     >
       {/* ВАЖНО: button остался => CSS ICC продолжит работать */}
-      <Link
-        to={to}
-        className="mega-menu__toggle-link"
-
-      >
+      <Link to={to} className="mega-menu__toggle-link">
         {children}
       </Link>
 
@@ -33,6 +32,10 @@ const MenuBtnLink = ({ to, children }) => {
 };
 
 export default function Navigation() {
+  const { lang, setLang, t } = useI18n();
+
+  const label = (enText, ruKey) => (lang === "ru" ? t(ruKey) : enText);
+
   return (
     <div className="header-container">
       <div className="header-container__sticky">
@@ -40,32 +43,31 @@ export default function Navigation() {
           <div className="container">
             {/* Logo */}
             <Link className="header__logo-link" to="/">
-              <noscript>
-                <img
-                  src="https://iccwbo.org/wp-content/uploads/sites/3/2023/03/ICC_FormalLogo_BlackBlue_Digital.png?w=220"
-                  className="lazyload header__logo-color"
-                  alt=""
-                />
-              </noscript>
-
-              <picture>
-                <source
-                  data-srcset="https://iccwbo.org/wp-content/uploads/sites/3/2023/03/ICC_FormalLogo_BlackBlue_Digital.png?w=110, https://iccwbo.org/wp-content/uploads/sites/3/2023/03/ICC_FormalLogo_BlackBlue_Digital.png?w=220 2x"
-                  srcSet="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  data-crop="false"
-                />
-                <img
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                  className="lazyload header__logo-color"
-                  alt=""
-                />
-              </picture>
-
-              <span className="sr-only">ICC - International Chamber of Commerce</span>
+              <img src={LogoImg} className="header__logo-color" alt="" />
             </Link>
 
             {/* Mobile actions */}
             <div className="header__mobile-actions only-mobile">
+              {/* Language switch (mobile) */}
+              <div className="header__lang">
+                <button
+                  type="button"
+                  className={`header__lang-btn ${lang === "en" ? "is-active" : ""}`}
+                  onClick={() => setLang("en")}
+                  aria-pressed={lang === "en"}
+                >
+                  EN
+                </button>
+                <button
+                  type="button"
+                  className={`header__lang-btn ${lang === "ru" ? "is-active" : ""}`}
+                  onClick={() => setLang("ru")}
+                  aria-pressed={lang === "ru"}
+                >
+                  RU
+                </button>
+              </div>
+
               <button type="button" aria-controls="search-form" className="header__search" id="search-mobile">
                 <svg className="icon icon-search" aria-hidden="true" focusable="false">
                   <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="images/icons.svg#icon-search" />
@@ -83,19 +85,56 @@ export default function Navigation() {
             <nav id="menu" className="header__menu" aria-label="Main navigation" role="navigation">
               <div className="header__menu-wrapper">
                 <ul className="header__menu-main">
-                  <li><MenuBtnLink to="/">Home</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/about">About Us</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/winners">Winners</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/lastjury">Past Jury</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/jury">Jury</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/#nominations">Nominations</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/position">Regulations</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/ratings">Evaluation Criteria</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/articles">Articles</MenuBtnLink></li>
-                  <li><MenuBtnLink to="/contacts">Contacts</MenuBtnLink></li>
+                  <li>
+                    <MenuBtnLink to="/">{label("Home", "menu.home")}</MenuBtnLink>
+                  </li>
+
+                  <li>
+                    <MenuBtnLink to="/winners">{label("Winners", "menu.winners")}</MenuBtnLink>
+                  </li>
+                  <li>
+                    <MenuBtnLink to="/jury">{label("Jury", "menu.jury")}</MenuBtnLink>
+                  </li>
+                  <li>
+                    <MenuBtnLink to="/regulations">{label("Regulations", "menu.regulations")}</MenuBtnLink>
+                  </li>
+                  <li>
+                    <MenuBtnLink to="/nominations">
+                      {label("Nominations and Evaluation Criteria", "menu.nominations")}
+                    </MenuBtnLink>
+                  </li>
+                  <li>
+                    <MenuBtnLink to="/jurycriteria">{label("Jury selection process", "menu.jurycriteria")}</MenuBtnLink>
+                  </li>
+                  <li>
+                    <MenuBtnLink to="/articles">{label("Articles", "menu.articles")}</MenuBtnLink>
+                  </li>
+                  <li>
+                    <MenuBtnLink to="/contacts">{label("Contacts", "menu.contacts")}</MenuBtnLink>
+                  </li>
                 </ul>
 
                 <div className="header__menu-secondary">
+                  {/* Language switch (desktop) */}
+                  <div className="header__lang only-desktop">
+                    <button
+                      type="button"
+                      className={`header__lang-btn ${lang === "en" ? "is-active" : ""}`}
+                      onClick={() => setLang("en")}
+                      aria-pressed={lang === "en"}
+                    >
+                      EN
+                    </button>
+                    <button
+                      type="button"
+                      className={`header__lang-btn ${lang === "ru" ? "is-active" : ""}`}
+                      onClick={() => setLang("ru")}
+                      aria-pressed={lang === "ru"}
+                    >
+                      RU
+                    </button>
+                  </div>
+
                   <button type="button" aria-controls="search-form" className="header__search only-desktop">
                     <svg className="icon icon-search" aria-hidden="true" focusable="false">
                       <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="images/icons.svg#icon-search" />

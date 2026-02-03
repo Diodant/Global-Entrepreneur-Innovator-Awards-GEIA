@@ -5498,7 +5498,7 @@ table thead {
 
 .wp-block-beapi-key-figure {
     --wp--beapi--key-figure--background-padding: 1.5rem 1.5rem 2rem 1.5rem;
-    --wp--beapi--key-figure--desktop-size: 3.5rem;
+    --wp--beapi--key-figure--desktop-size: 2.7rem;
     --wp--beapi--key-figure--mobile-size: 2.5rem;
     --wp--beapi--key-figure--suffix-desktop-size: 1.75rem;
     --wp--beapi--key-figure--suffix-mobile-size: 1.125rem;
@@ -5509,7 +5509,7 @@ table thead {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 14.625rem;
     overflow: hidden;
     padding: 1.5rem 1.5rem 2rem;
@@ -6677,7 +6677,7 @@ html.scroll-up .header {
 .header__logo-link .icon,
 .header__logo-link img {
     height: 100%;
-    width: 100%
+    width: 200px;
 }
 
 .header__logo-link img {
@@ -12635,4 +12635,614 @@ screen and (max-width:800px)and (orientation:landscape) {
         padding: .625rem 0 !important;
         width: 100% !important
     }
+}
+
+
+.geiaWinners {
+  width: 100%;
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 28px 18px 72px;
+}
+
+@media (min-width: 768px) {
+  .geiaWinners {
+    padding: 36px 26px 84px;
+  }
+}
+@media (min-width: 1280px) {
+  .geiaWinners {
+    padding: 44px 32px 96px;
+  }
+}
+
+.geiaWinners__header {
+  margin: 0 0 28px 0;
+}
+
+.geiaWinners__title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+@media (min-width: 768px) {
+  .geiaWinners__title {
+    font-size: 40px;
+  }
+}
+
+.geiaWinners__subtitle {
+  margin: 10px 0 0 0;
+  max-width: 72ch;
+  font-size: 18px;
+  line-height: 1.65;
+  color: rgba(15, 23, 42, 0.68);
+}
+
+.geiaWinners__sections {
+  display: grid;
+  gap: 44px;
+}
+
+/* ---------- Year section ---------- */
+.geiaYear {
+  display: grid;
+  gap: 18px;
+}
+
+.geiaYear__head {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 12px 0 10px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.10);
+}
+
+.geiaYear__title {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.geiaYear__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+@media (min-width: 768px) {
+  .geiaYear__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .geiaYear__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+  }
+}
+
+/* =========================
+   PAGE (опционально красиво)
+   ========================= */
+.geiaWinners{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(16px, 3vw, 28px);
+}
+
+.geiaWinners__header{
+  margin: 28px 0px;
+}
+
+
+
+.geiaWinners__subtitle{
+  margin-top: 10px;
+  color: #5b6373;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.geiaWinners__sections{
+  display: grid;
+  gap: 44px;
+}
+
+/* =========================
+   YEAR
+   ========================= */
+.geiaYear{ display: grid; gap: 14px; }
+
+.geiaYear__head{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 10px 0 6px;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,.82);
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.geiaYear__title{
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color:#0b1220;
+}
+
+.geiaYear__grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+@media (min-width: 768px){
+  .geiaYear__grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1280px){
+  .geiaYear__grid{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* =========================
+   CARD (ФОН + АНИМАЦИИ)
+   ВАЖНО: ::before именно на фоне карточки
+   ========================= */
+.geia-card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+
+
+  background:
+    radial-gradient(1200px 400px at 0% 0%, rgba(255,255,255,.85), rgba(255,255,255,0) 55%),
+    linear-gradient(180deg, #f6f7f9 0%, #eff1f4 100%);
+
+  border: 1px solid rgba(15, 23, 42, .10);
+  box-shadow:
+    0 12px 30px rgba(15, 23, 42, .10),
+    0 2px 8px rgba(15, 23, 42, .06);
+
+  transform: translateY(0);
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.geia-card::before{
+  background-image:url("data:image/svg+xml;charset=utf8, %3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27rgba%280, 125, 255, 1%29%27 viewBox=%270 0 21 10%27%3E%3Cpath fill-rule=%27evenodd%27 d=%27M0 1.7C1.2 6.4 5.4 10 10.4 10s9.2-3.5 10.4-8.2l-4-1.7c-.5 3.1-3.2 5.5-6.4 5.5S4.4 3.1 4 0L0 1.7Z%27/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+
+  content:"";
+  height:6.25rem;
+  position:absolute;
+  right:.75rem;
+  top:-.25rem;
+  transform:rotate(46deg);
+  width:3.75rem;
+
+
+  z-index:99;
+  pointer-events:none;
+}
+
+
+.geia-card:hover .geiaAward{
+  background: #007dff;
+  
+}
+.geia-card:hover .geiaAward__text {
+color: #fff;
+}
+
+/* мягкое “свечение” вторым слоем */
+.geia-card::after{
+  content:"";
+  position:absolute;
+  inset:-40%;
+  background: radial-gradient(circle at 30% 20%, rgba(0,125,255,.14), rgba(0,125,255,0) 55%);
+  opacity: 0;
+  z-index: 1;
+  pointer-events:none;
+  transition: opacity .22s ease;
+}
+
+.geia-card:hover{
+  transform: translateY(-4px);
+  border-color: rgba(0,125,255,.28);
+  box-shadow:
+    0 18px 44px rgba(15, 23, 42, .14),
+    0 3px 12px rgba(15, 23, 42, .08);
+}
+
+.geia-card:hover::after{
+  opacity: 1;
+}
+
+/* нажатие */
+.geia-card:active{
+  transform: translateY(-2px);
+}
+
+/* =========================
+   MEDIA
+   ========================= */
+.geiaCard__media{
+  position: relative;
+  z-index: 2; 
+  height: 370px; 
+  width: 100%;
+  background: linear-gradient(135deg, rgba(0,0,0,.04), rgba(0,0,0,.08));
+}
+
+.geiaCard__img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display:block;
+  transform: scale(1);
+  transition: transform .5s ease, filter .5s ease;
+  filter: grayscale(1) saturate(1.05) contrast(1.05);
+}
+
+/* при наведении — появляется цвет */
+.geia-card:hover .geiaCard__img{
+  transform: scale(1.04);
+  filter: grayscale(0) saturate(1.1) contrast(1.08);
+}
+
+.geia-card:hover .geiaCard__img{
+  transform: scale(1.04);
+}
+
+.geiaCard__noPhoto{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 13px;
+  color:#6b7280;
+}
+
+/* =========================
+   AWARD CHIP (оставляем красивой, но не обязателен ::before тут)
+   ========================= */
+.geiaAward{
+
+  display:inline-flex;
+  align-items:center;
+  max-width: calc(100% - 28px);
+  background: rgba(255,255,255,.92);
+  border: 1px solid rgba(15, 23, 42, .10);
+  border-radius: 999px;
+  padding: 9px 16px;
+    margin-bottom: 20px;
+  box-shadow: 0 10px 22px rgba(0,0,0,.12);
+  backdrop-filter: blur(10px);
+}
+
+
+
+.geiaAward__text{
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: .2px;
+  color:#0b1220;
+
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* =========================
+   CONTENT / TYPOGRAPHY
+   ========================= */
+.geiaCard__body{
+  position: relative;
+  z-index: 2;
+  padding: 16px 18px 18px;
+}
+
+.geiaCard__name{
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color:#0b1220;
+}
+
+.geiaCard__country{
+  font-weight: 700;
+  color: #667085;
+}
+
+.geiaCard__meta{
+  margin-top: 10px;
+  display:grid;
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.55;
+  color:#3b4252;
+}
+
+.geiaCard__metaRow{
+  margin: 0;
+}
+
+.geiaCard__label{
+  font-weight: 800;
+  color:#0b1220;
+}
+
+.geiaCard__text{
+  margin: 8px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(15,23,42,.08);
+  color:#1f2937;
+}
+
+/* =========================
+   OPTIONAL: reduced motion
+   ========================= */
+@media (prefers-reduced-motion: reduce){
+  .geia-card,
+  .geiaCard__img,
+  .geia-card::after{
+    transition: none !important;
+  }
+}
+
+/* ===== GEIA JURY PAGE (blue-only accent: #007dff) ===== */
+
+.juryPage {
+  padding-top: 12px;
+  position: relative;
+  isolation: isolate;
+}
+
+
+
+.juryYear {
+  margin-bottom: 34px;
+  max-width: 1310px;
+  position: relative;
+}
+
+/* Заголовок года (если используешь .nom_title) */
+.juryYear .nom_title {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.juryYear .nom_title::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #007dff;
+  box-shadow: 0 0 0 4px rgba(0, 125, 255, 0.16);
+}
+
+/* ===== Cards (first three) ===== */
+.juryCards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 14px 0 18px;
+}
+
+@media (max-width: 1100px) {
+  .juryCards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 740px) {
+  .juryCards { grid-template-columns: 1fr; }
+}
+
+.juryCard {
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, 0.08),
+    0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  transform: translateY(0);
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
+}
+
+.juryCard::before {
+ background-image:url("data:image/svg+xml;charset=utf8, %3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27rgba%280, 125, 255, 1%29%27 viewBox=%270 0 21 10%27%3E%3Cpath fill-rule=%27evenodd%27 d=%27M0 1.7C1.2 6.4 5.4 10 10.4 10s9.2-3.5 10.4-8.2l-4-1.7c-.5 3.1-3.2 5.5-6.4 5.5S4.4 3.1 4 0L0 1.7Z%27/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+    content: "";
+    height: 6.25rem;
+    position: absolute;
+    right: .75rem;
+    top: -.25rem;
+    transform: rotate(46deg);
+    width: 3.75rem;
+    z-index: 99;
+    pointer-events: none;
+}
+
+
+.juryCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(0, 125, 255, 0.24);
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.14),
+    0 1px 0 rgba(255, 255, 255, 0.65) inset;
+}
+
+.juryCard:hover::before { opacity: 1; }
+
+.juryCard__media {
+  height: 370px;
+  position: relative;
+  background: linear-gradient(135deg, rgba(0, 125, 255, 0.18), rgba(0, 125, 255, 0.06));
+}
+
+
+
+.juryCard__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1);
+  transition: transform 0.6s ease, filter 0.6s ease;
+  filter: grayscale(100%) contrast(1.05) brightness(0.95);
+}
+
+/* Эффект при наведении (можно убрать, если нужно всегда ч/б) */
+.juryCard:hover .juryCard__img {
+  transform: scale(1.06);
+  filter: grayscale(0%) contrast(1.08) brightness(1);
+}
+
+.juryCard__body {
+  padding: 14px 16px 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.juryCard__name {
+  font-weight: 900;
+  margin: 0 0 8px;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+}
+
+.juryCard__country {
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.juryCard__bio {
+  margin: 0 0 10px;
+  line-height: 1.5;
+  opacity: 0.92;
+}
+
+.juryCard__spec {
+  margin: 0;
+  line-height: 1.45;
+  font-weight: 750;
+  opacity: 0.92;
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(0, 125, 255, 0.12), rgba(0, 125, 255, 0.06));
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Others: timeline/list ===== */
+.juryList {
+  margin: 12px 0 0;
+  padding-left: 0;
+  position: relative;
+}
+
+
+.juryLine {
+  position: relative;
+  padding: 12px 12px 14px 34px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  margin-bottom: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.juryLine::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 18px;
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: #007dff;
+  box-shadow: 0 0 0 4px rgba(0, 125, 255, 0.16);
+}
+
+.juryLine:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 125, 255, 0.22);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.10);
+}
+
+.juryLine__head { margin: 0 0 6px; line-height: 1.25; }
+
+.juryLine__name { font-weight: 900; letter-spacing: 0.15px; }
+
+.juryLine__country { font-weight: 700; opacity: 0.72; }
+
+.juryLine__bio { margin: 0 0 8px; line-height: 1.5; opacity: 0.92; }
+
+.juryLine__spec {
+  margin: 0;
+  line-height: 1.45;
+  font-weight: 750;
+  opacity: 0.92;
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(0, 125, 255, 0.12), rgba(0, 125, 255, 0.06));
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* separator */
+.juryYear .wp-block-separator {
+  margin: 22px 0 0;
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.12), transparent);
+}
+
+.header__lang{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+.header__lang-btn{
+  border:1px solid rgba(0,0,0,.15);
+  background:#fff;
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:12px;
+  line-height:1;
+  cursor:pointer;
+}
+
+.header__lang-btn.is-active{
+  border-color:#007dff;
+  color:#007dff;
 }
