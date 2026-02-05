@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { useI18n } from "../components/I18nProvider"; 
 
-import heroImg from "../images/45.png";
+import heroImg from "../images/2053.jpg";
 
 import jury_1 from "../images/jury/1_jury.png";
 import jury_2 from "../images/jury/2_jury.png";
@@ -28,17 +28,6 @@ import jury_22 from "../images/jury/22_jury.png";
 import jury_23 from "../images/jury/23_jury.png";
 import jury_24 from "../images/jury/24_jury.png";
 
-/**
- * Данные (EN по умолчанию).
- * RU берём из geia.ru.json через ключи:
- *  jury.page.title
- *  jury.2018.title
- *  jury.2018.1.bio
- *  jury.2018.1.specialization
- *  ...
- *  jury.2025.15.bio
- *  jury.2025.15.specialization
- */
 
 const GEIA_JURY = [
   {

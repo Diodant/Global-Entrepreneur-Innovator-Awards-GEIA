@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
-import { useI18n } from "../components/I18nProvider"; // поправь путь под свой проект
+import { useI18n } from "../components/I18nProvider"; 
 
-import img45 from "../images/45.png";
+import img45 from "../images/34.jpg";
 
 import win_1_2018 from "../images/winners/win_1_2018.png";
 import win_2_2018 from "../images/winners/unnamed (20).png";

@@ -7,6 +7,7 @@ import Nominations from './components/Nominations';
 import Regulations from './components/Regulations';
 import InternationalJuryCriteria from './components/InternationalJuryCriteria';
 import Winners from './components/Winners';
+import NewsPage from "./components/NewsPage";
 import Jury from './components/Jury';
 import Footer from './components/Footer';
 import './css/_static_1.css';
@@ -28,6 +29,8 @@ function App() {
            <Route path="/jurycriteria" element={<InternationalJuryCriteria />} />
            <Route path="/winners" element={<Winners />} />
            <Route path="/jury" element={<Jury />} />
+                   <Route path="/news" element={<NewsPage />} />
+        <Route path="/news/:slug" element={<NewsPage />} />
            <Route path="/regulations" element={<Regulations />} />
          {/* 
           <Route path="/winners" element={<Win />} />

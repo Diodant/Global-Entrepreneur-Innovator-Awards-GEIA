@@ -12,12 +12,12 @@ const MenuBtnLink = ({ to, children }) => {
       aria-expanded="false"
       aria-haspopup="false"
     >
-      {/* ВАЖНО: button остался => CSS ICC продолжит работать */}
+
       <Link to={to} className="mega-menu__toggle-link">
         {children}
       </Link>
 
-      {/* Иконки оставляем как было, чтобы визуал не менялся */}
+
       <svg className="icon icon-down hide-on-mobile" aria-hidden="true" focusable="false">
         <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="images/icons.svg#icon-down" />
       </svg>
@@ -107,11 +107,9 @@ export default function Navigation() {
                     <MenuBtnLink to="/jurycriteria">{label("Jury selection process", "menu.jurycriteria")}</MenuBtnLink>
                   </li>
                   <li>
-                    <MenuBtnLink to="/articles">{label("Articles", "menu.articles")}</MenuBtnLink>
+                    <MenuBtnLink to="/news">{label("News", "menu.articles")}</MenuBtnLink>
                   </li>
-                  <li>
-                    <MenuBtnLink to="/contacts">{label("Contacts", "menu.contacts")}</MenuBtnLink>
-                  </li>
+
                 </ul>
 
                 <div className="header__menu-secondary">
@@ -135,12 +133,7 @@ export default function Navigation() {
                     </button>
                   </div>
 
-                  <button type="button" aria-controls="search-form" className="header__search only-desktop">
-                    <svg className="icon icon-search" aria-hidden="true" focusable="false">
-                      <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="images/icons.svg#icon-search" />
-                    </svg>
-                    <span className="sr-only">Open/Close the search bar</span>
-                  </button>
+
                 </div>
               </div>
             </nav>

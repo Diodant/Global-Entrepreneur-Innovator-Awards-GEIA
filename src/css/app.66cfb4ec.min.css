@@ -10341,7 +10341,8 @@ html.scroll-up .block-alert {
 
     .footer__content {
         display: flex;
-        margin: 6.5rem 0
+        margin: 6.5rem 0;
+        justify-content: space-between;
     }
 
     .footer__bottom {
@@ -12665,7 +12666,7 @@ screen and (max-width:800px)and (orientation:landscape) {
   font-size: 36px;
   line-height: 1.12;
   letter-spacing: -0.02em;
-  font-weight: 800;
+  font-weight: 400;
   color: #0f172a;
 }
 
@@ -12734,12 +12735,9 @@ screen and (max-width:800px)and (orientation:landscape) {
   }
 }
 
-/* =========================
-   PAGE (опционально красиво)
-   ========================= */
+
 .geiaWinners{
-  max-width: 1200px;
-  margin: 0 auto;
+
   padding: clamp(16px, 3vw, 28px);
 }
 
@@ -13033,7 +13031,7 @@ color: #fff;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.2px;
 }
 
@@ -13245,4 +13243,8 @@ color: #fff;
 .header__lang-btn.is-active{
   border-color:#007dff;
   color:#007dff;
+}
+
+.section-heading {
+  font-weight: 600;
 }
