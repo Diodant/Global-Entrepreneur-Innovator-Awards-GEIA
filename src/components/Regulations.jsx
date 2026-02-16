@@ -1,5 +1,5 @@
 import React from "react";
-import img45 from "../images/45.png";
+import img45 from "../images/multilateral-trade-icc.webp";
 import { useI18n } from "../components/I18nProvider";
 
 export default function RegulationsGEIA() {

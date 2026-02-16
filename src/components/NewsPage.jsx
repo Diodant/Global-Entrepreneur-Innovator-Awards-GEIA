@@ -2,6 +2,8 @@
 import React, { useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import useNewsData from "./data/useNewsData";
+import img45 from "../images/456.jpg";
+import { useI18n } from "../components/I18nProvider";
 
 function Html({ html }) {
   return <span dangerouslySetInnerHTML={{ __html: html }} />;
@@ -85,6 +87,14 @@ function BlocksRenderer({ blocks }) {
 }
 
 export default function NewsPage() {
+  const { t } = useI18n();
+
+  // fallback: если ключа нет — показываем EN
+  const tr = (key, fallback) => {
+    const v = t(key);
+    return v === key ? fallback : v;
+  };
+
   const { slug } = useParams();
   const { items, bySlug } = useNewsData();
 
@@ -96,9 +106,9 @@ export default function NewsPage() {
       return (
         <main id="content" role="main" tabIndex={-1} aria-label="Main content">
           <div className="container" style={{ padding: "28px 18px" }}>
-            <p>Not found.</p>
+            <p>{tr("news.notFound", "Not found.")}</p>
             <p>
-              <Link to="/news">← Back to news</Link>
+              <Link to="/news">{tr("news.backToNews", "← Back to news")}</Link>
             </p>
           </div>
         </main>
@@ -107,6 +117,10 @@ export default function NewsPage() {
 
     return (
       <main id="content" role="main" tabIndex={-1} aria-label="Main content">
+        {/* Page hero (translated) */}
+
+
+        {/* Article hero (mostly dynamic, only back button translated) */}
         <header className="hero hero--single">
           <div className="container">
             <div className="hero__columns">
@@ -126,7 +140,7 @@ export default function NewsPage() {
                 </div>
 
                 <div style={{ marginTop: 14 }}>
-                  <Link to="/news">← Back to news</Link>
+                  <Link to="/news">{tr("news.backToNews", "← Back to news")}</Link>
                 </div>
               </div>
 
@@ -154,6 +168,35 @@ export default function NewsPage() {
   // ====== LIST VIEW ======
   return (
     <main id="content" role="main" tabIndex={-1} aria-label="Main content">
+              <header className="hero hero--rich-page mt-60 mb-104">
+          <div className="container">
+            <div className="hero__columns">
+              <div>
+                <h1 className="hero__title" style={{ visibility: "visible" }}>
+                  {tr("news.page.title", "News")}
+                </h1>
+              </div>
+            </div>
+
+            <div className="hero__media">
+              <div className="placeholder-media hero-lazyloaded">
+                <noscript>
+                  <img
+                    src="https://iccwbo.org/wp-content/uploads/sites/3/2023/01/icc-corporate-headquarter.jpg?w=1500&h=920&crop=1"
+                    className="lazyload"
+                    alt=""
+                  />
+                </noscript>
+
+                <picture>
+                  <source media="(max-width: 640px)" srcSet={img45} />
+                  <source srcSet={img45} />
+                  <img src={img45} className="lazyloaded" alt="" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </header>
       <div className="container">
         <div className="grid-card-news-list">
           <div className="grid-card-news-list__inner-container">
@@ -180,8 +223,6 @@ export default function NewsPage() {
               </article>
             ))}
           </div>
-
-
         </div>
       </div>
     </main>

@@ -1,6 +1,7 @@
 import React from "react";
 import Conector from "./Conector";
 import { useI18n } from "../components/I18nProvider";
+import HomeNewsPreview from "../components/HomeNewsPreview";
 
 export default function GEIAPage() {
   const { lang, t } = useI18n();
@@ -317,6 +318,8 @@ export default function GEIAPage() {
           </div>
         </div>
 
+        
+
         {/* Selectivity block структура 1-в-1 */}
         <div className="blocks-container">
           <div className="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
@@ -430,6 +433,8 @@ export default function GEIAPage() {
               </div>
             </div>
           </div>
+
+          <HomeNewsPreview />
         </div>
 
         {/* Partners block структура 1-в-1 */}

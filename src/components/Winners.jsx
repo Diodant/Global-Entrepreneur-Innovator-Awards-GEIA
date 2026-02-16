@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { useI18n } from "../components/I18nProvider"; 
 
-import img45 from "../images/34.jpg";
+import img45 from "../images/anticorruption-integrity-icc.webp";
 
 import win_1_2018 from "../images/winners/win_1_2018.png";
 import win_2_2018 from "../images/winners/unnamed (20).png";

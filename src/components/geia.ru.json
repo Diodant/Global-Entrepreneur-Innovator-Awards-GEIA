@@ -1048,7 +1048,38 @@
   "conector.social.flickr": "Flickr",
 
   "conector.right.text": "Хотите получать самые свежие новости и анонсы GEIA прямо на вашу почту?",
-  "conector.right.cta": "Нажмите, чтобы подписаться"
+  "conector.right.cta": "Нажмите, чтобы подписаться",
+    "footer.signature": "Для бизнеса. Для вас.",
+
+  "footer.menu.home": "Главная",
+  "footer.menu.winners": "Победители",
+  "footer.menu.jury": "Жюри",
+  "footer.menu.regulations": "Регламент",
+  "footer.menu.nominations": "Номинации и критерии оценки победителей",
+  "footer.menu.juryCriteria": "Процесс отбора жюри",
+  "footer.menu.news": "Новости",
+
+  "footer.contact.title": "Контакты",
+  "footer.contact.addressLabel": "Адрес:",
+  "footer.contact.addressLine1": "Кутузовский проспект, 36, стр. 3",
+  "footer.contact.addressLine2": "Москва, 121170, Россия",
+
+  "footer.contact.hoursLabel": "Часы работы:",
+  "footer.contact.hoursValue": "Понедельник – пятница: 10:00 – 19:00",
+
+  "footer.contact.phoneLabel": "Телефон:",
+  "footer.contact.phone1": "+7 (495) 720-50-80",
+  "footer.contact.phone2": "+7 (495) 730-08-55",
+
+  "footer.contact.emailLabel": "E-mail:",
+  "footer.contact.email": "office@iccwbo.ru",
+
+  "footer.notice.copyright": "Авторские права и товарные знаки",
+  "footer.notice.terms": "Условия и положения",
+  "footer.notice.privacy": "Политика конфиденциальности",
+    "news.page.title": "Новости",
+  "news.notFound": "Не найдено.",
+  "news.backToNews": "← Назад к новостям"
 
 
 }

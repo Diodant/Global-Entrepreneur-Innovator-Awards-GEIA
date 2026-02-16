@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import { useI18n } from "../components/I18nProvider"; 
 
-import heroImg from "../images/2053.jpg";
+import heroImg from "../images/commercial-law-and-practice.webp";
 
 import jury_1 from "../images/jury/1_jury.png";
 import jury_2 from "../images/jury/2_jury.png";

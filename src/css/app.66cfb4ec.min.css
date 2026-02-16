@@ -7043,7 +7043,7 @@ html.scroll-up .header {
 }
 
 .footer__content {
-    margin: 5rem 0
+    margin: 3rem 0
 }
 
 .footer__logo-link {
@@ -10341,7 +10341,7 @@ html.scroll-up .block-alert {
 
     .footer__content {
         display: flex;
-        margin: 6.5rem 0;
+        margin: 3.5rem 0;
         justify-content: space-between;
     }
 
@@ -12940,8 +12940,8 @@ color: #fff;
   color:#0b1220;
 
   overflow:hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* text-overflow: ellipsis;
+  white-space: nowrap; */
 }
 
 /* =========================
@@ -13247,4 +13247,20 @@ color: #fff;
 
 .section-heading {
   font-weight: 600;
+}
+
+.mb-56 {
+    margin-bottom: 56px;
+}
+
+.mt-104 {
+    margin-top: 104px;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-104 {
+    margin-bottom: 104px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { useI18n } from "../components/I18nProvider";
-import img45 from "../images/45.png";
+import img45 from "../images/antitrust-icc.webp";
 
 export default function Nominations() {
   const { t } = useI18n();

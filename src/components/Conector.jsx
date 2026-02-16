@@ -146,14 +146,19 @@ export default function Conector() {
 
           <div className="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
             <div className="wp-block-button">
-              <a
-                className="wp-block-button__link wp-element-button"
-                href="/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                {tr("conector.right.cta", "Click to sign up")}
-              </a>
+<a
+  className="wp-block-button__link wp-element-button"
+  href="#footer"
+  onClick={(e) => {
+    e.preventDefault();
+    const footer = document.getElementById("footer");
+    if (footer) {
+      footer.scrollIntoView({ behavior: "smooth" });
+    }
+  }}
+>
+  {tr("conector.right.cta", "Click to sign up")}
+</a>
             </div>
           </div>
         </div>

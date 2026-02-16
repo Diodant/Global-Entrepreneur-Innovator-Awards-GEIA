@@ -1,17 +1,15 @@
 import React from "react";
 import { useI18n } from "../components/I18nProvider";
-import img45 from "../images/45.png";
+import img45 from "../images/artificial-intelligence-icc.webp";
 
 export default function InternationalJuryCriteria() {
   const { t } = useI18n();
 
-  // fallback: если ключа нет — показываем EN
   const tr = (key, fallback) => {
     const v = t(key);
     return v === key ? fallback : v;
   };
 
-  // для списков (массив строк)
   const trList = (key, fallbackArr) => {
     const v = t(key);
     return v === key ? fallbackArr : v;

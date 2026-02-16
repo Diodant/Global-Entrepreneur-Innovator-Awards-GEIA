@@ -1,5 +1,5 @@
 // src/data/newsData.js
-export const NEWS = [
+export const NEWS_EN = [
   {
     slug: "un-tax-proposal-on-cross-border-services-risks-backfiring",
     typeLabel: "News",
@@ -2337,7 +2337,7 @@ export const NEWS = [
     dateLabel: "11 December 2023",
     title:
       "EU Directive on combatting late payment and its unintended consequences on the real economy",
-    excerpt: "",
+    excerpt: "The International Chamber of Commerce (“ICC”) – the institutional representative of more than 45 million businesses in over 170 countries – supports initiatives driven towards creating a culture of reliable and timely payment. While the core purpose of the directive is commendable, closer examination reveals several unintended consequences that raise concerns about its efficacy and broader impacts on contractual freedom, negotiation flexibility, and the vitality of small- and medium-sized enterprises (SMEs).",
     cover: {
       listSrc:
         "https://iccwbo.org/wp-content/uploads/sites/3/2023/12/icc-european-union-flag.jpg?w=400&h=260&crop=1",
