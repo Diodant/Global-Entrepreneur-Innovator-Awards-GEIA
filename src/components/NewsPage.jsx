@@ -46,6 +46,29 @@ function BlocksRenderer({ blocks }) {
           );
         }
 
+        if (b.type === "personProfile") {
+          return (
+            <section key={idx} className="news-person-profile">
+              <div className="news-person-profile__photo geiaCard__media">
+                {b.media?.src ? (
+                  <img
+                    src={b.media.src}
+                    alt={b.media.alt || b.heading || ""}
+                    className="geiaCard__img"
+                    loading={b.heading?.startsWith("Sergiy Kukhilava") ? "eager" : "lazy"}
+                  />
+                ) : (
+                  <div className="news-person-profile__placeholder" aria-hidden="true" />
+                )}
+              </div>
+              <h3 className="news-person-profile__name">{b.heading}</h3>
+              {b.subheading ? (
+                <p className="news-person-profile__position">{b.subheading}</p>
+              ) : null}
+            </section>
+          );
+        }
+
         if (b.type === "mediaText") {
           return (
             <div
@@ -63,6 +86,8 @@ function BlocksRenderer({ blocks }) {
                 <p className="is-style-large has-text-color has-link-color">
                   <strong>{b.heading}</strong>
                 </p>
+
+                {b.subheading ? <p>{b.subheading}</p> : null}
 
                 <div className="wp-block-spacer" aria-hidden="true" style={{ height: 20 }} />
 

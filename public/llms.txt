@@ -1,0 +1,25 @@
+# Global Entrepreneur & Innovator Awards (GEIA)
+
+> Official website of the Global Entrepreneur & Innovator Awards, an international award recognizing entrepreneurs, innovators, business leaders, strategic achievements, and measurable industry impact.
+
+Canonical website: https://geiawards.com/
+Languages: English and Russian
+
+## Primary pages
+
+- [About GEIA](https://geiawards.com/): Overview of the award and its purpose.
+- [Nominations](https://geiawards.com/nominations): Award categories, eligibility, evidence requirements, and evaluation standards.
+- [International jury criteria](https://geiawards.com/jurycriteria): Jury assessment principles and scoring criteria.
+- [Winners](https://geiawards.com/winners): GEIA winners from 2018 through 2025 and descriptions of their achievements.
+- [International jury](https://geiawards.com/jury): Members and expertise of the international jury.
+- [Regulations](https://geiawards.com/regulations): Official award rules, procedures, ethics, and winner-selection process.
+- [News](https://geiawards.com/news): News and insights about entrepreneurship, innovation, and international business.
+
+## Main award categories
+
+- Business Leadership Award
+- Entrepreneur of the Year Award
+- Excellence in Business Development Award
+- Outstanding Industry Achievement Award
+- Strategic Vision Award
+- Innovation Achievement Award

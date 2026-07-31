@@ -1,5 +1,16 @@
 // src/data/newsData.js
+import semyonVygovortsev from "../../images/7456.jpg";
+import thomasSchneider from "../../images/winners/unnamed (37).png";
+import nargizAliyeva from "../../images/winners/unnamed (38).png";
+import fatimaAlMansoori from "../../images/winners/unnamed (39).png";
+import sergiyKukhilava from "../../images/winners/0634.jpg";
+import mateuszKowalski from "../../images/winners/unnamed (41).png";
+import choiMinHo from "../../images/winners/unnamed (42).png";
+import news_1 from "../../images/6322.png";
+import news_2 from "../../images/75077631_Global network 7.jpg";
+
 export const NEWS_EN = [
+
   {
     slug: "un-tax-proposal-on-cross-border-services-risks-backfiring",
     typeLabel: "News",
@@ -2410,6 +2421,379 @@ export const NEWS_EN = [
       },
       { type: "spacer", height: 30 },
       { type: "p", html: "" },
+    ],
+  },
+    {
+    slug: "global-entrepreneur-innovator-awards-2021-announces-winners",
+    typeLabel: "News",
+    taxonomy: "Global Entrepreneur & Innovator Awards",
+    dateLabel: "April 4, 2021",
+    title: "Global Entrepreneur & Innovator Awards 2021 Announces Winners of the International Award",
+    excerpt: "On March 30, 2021, the winners of the Global Entrepreneur & Innovator Awards (GEIA) 2021 were officially announced. Established in 2018, GEIA is an annual international award created to identify and recognize entrepreneurs, executives, innovators, and business leaders whose professional achievements make a significant contribution to the advancement of industries, the implementation of innovation, and the evolution of modern business practices.",
+    cover: {
+      listSrc: news_2,
+      heroSrc: news_1,
+      alt: "Global Entrepreneur & Innovator Awards (GEIA)",
+    },
+    blocks: [
+      {
+        type: "mediaText",
+        media: { src: semyonVygovortsev, alt: "Semyon Vygovortsev" },
+        heading: "Semyon Vygovortsev",
+        subheading: "Article author",
+      },
+      {
+        type: "p",
+        html: "Since its establishment, the Global Entrepreneur & Innovator Awards has evolved into an international platform bringing together distinguished representatives of business, technology, science, and entrepreneurship from around the world. Each year, the Award recognizes leaders whose projects, management initiatives, and innovative developments contribute to the growth of international business, technological progress, improved organizational performance, and the establishment of new industry standards.",
+      },
+      {
+        type: "p",
+        html: "The Award is founded on an independent expert evaluation of each nominee's achievements. During the assessment process, the International Jury evaluates not only the scale of professional accomplishments but also the level of innovation demonstrated by each project, its successful practical implementation, documented impact on industry development, quality of management decisions, scalability, and the long-term economic and societal significance of the achievements presented.",
+      },
+      {
+        type: "p",
+        html: "Particular emphasis is placed on the evidentiary foundation supporting each nomination. Every application undergoes a multi-stage expert review based on documented achievements, independent sources of information, and uniform evaluation criteria, ensuring a high degree of objectivity, consistency, and comparability throughout the selection process.",
+      },
+      {
+        type: "p",
+        html: "In 2021, submissions were evaluated by the GEIA International Jury, composed of experts from diverse countries and professional disciplines. The panel included professors from leading academic institutions, former chief executive officers of international companies, investment fund partners, corporate governance specialists, technology executives, and experts in international business, digital transformation, commercial development, operational excellence, investments, and innovation assessment. The 2021 International Jury represented France, Germany, the Netherlands, the United Kingdom, Italy, Japan, India, the United Arab Emirates, Vietnam, China, Kazakhstan, Ukraine, Belarus, Armenia, and Romania.",
+      },
+      {
+        type: "p",
+        html: "The 2021 International Jury consisted of:",
+      },
+      {
+        type: "p",
+        html: "    • Dr. Pauline Girard (France) — Professor of Innovation Management; ",
+      },
+      {
+        type: "p",
+        html: "    • Sebastian Fuchs (Germany) — Former Chief Executive Officer of an international manufacturing group; ",
+      },
+      {
+        type: "p",
+        html: "    • Marieke de Groot (Netherlands) — Investment Fund Partner; ",
+      },
+      {
+        type: "p",
+        html: "    • Jonathan Price (United Kingdom) — Independent Corporate Governance Consultant; ",
+      },
+      {
+        type: "p",
+        html: "    • Laura Conti (Italy) — Chief Operating Officer of an international service company; ",
+      },
+      {
+        type: "p",
+        html: "    • Daisuke Morishita (Japan) — Director of Technology Implementation; ",
+      },
+      {
+        type: "p",
+        html: "    • Ananya Bose (India) — Head of International Partnerships; ",
+      },
+      {
+        type: "p",
+        html: "    • Fahad Al-Khalifa (United Arab Emirates) — Investment Manager; ",
+      },
+      {
+        type: "p",
+        html: "    • Lê Quang Huy (Vietnam) — Director of Commercial Development; ",
+      },
+      {
+        type: "p",
+        html: "    • Cheng Rui (China) — Expert in Digital Platforms and Data Analytics; ",
+      },
+      {
+        type: "p",
+        html: "    • Aruzhan Tulegenova (Kazakhstan) — Entrepreneur and International Development Expert; ",
+      },
+      {
+        type: "p",
+        html: "    • Volodymyr Shevchenko (Ukraine) — Digital Transformation Expert; ",
+      },
+      {
+        type: "p",
+        html: "    • Svetlana Baranova (Belarus) — Corporate Compliance Specialist; ",
+      },
+      {
+        type: "p",
+        html: "    • Narek Harutyunyan (Armenia) — Technology Implementation Expert; ",
+      },
+      {
+        type: "p",
+        html: "    • Ioana Popescu (Romania) — Operational Excellence Project Manager. ",
+      },
+      {
+        type: "p",
+        html: "At the conclusion of the 2021 awards cycle, the Global Entrepreneur & Innovator Awards recognized winners from several countries whose achievements demonstrated excellence in entrepreneurship, strategic leadership, innovation, and business development.",
+      },
+      {
+        type: "p",
+        html: "Interviews with the 2021 Business Leadership Award Winners",
+      },
+      {
+        type: "p",
+        html: "Business Leadership Award",
+      },
+      {
+        type: "personProfile",
+        media: { src: thomasSchneider, alt: "Thomas Schneider (Germany)" },
+        heading: "Thomas Schneider (Germany)",
+        subheading: "Chief Executive Officer, Schneider Global Operations GmbH",
+      },
+      {
+        type: "p",
+        html: "— Thomas, congratulations on receiving the Business Leadership Award. In your opinion, what were the key achievements that led the International Jury to recognize your work?",
+      },
+      {
+        type: "p",
+        html: "First and foremost, I see this award as recognition of many years of dedication by our entire team. We have always viewed business growth not simply as expanding our international footprint, but as building a sustainable management system capable of delivering consistently high performance regardless of the company's scale. Over the past several years, we successfully entered new international markets, standardized our core business processes, implemented unified corporate standards, and established a highly effective KPI-driven management system. I believe it was this combination of sustainable growth and consistently strong operational performance that the International Jury recognized in its evaluation.",
+      },
+      {
+        type: "p",
+        html: "— International expansion requires a high level of managerial preparation. What challenges did you encounter?",
+      },
+      {
+        type: "p",
+        html: "The primary challenge was maintaining consistent management principles across companies operating in different countries and under varying market conditions. We devoted considerable attention to building a transparent decision-making system, strengthening corporate culture, implementing unified performance indicators, and continuously improving our processes. International business requires a high degree of management discipline, because successful scaling is impossible without maintaining stability, predictable results, and consistently high standards of performance at every stage.",
+      },
+      {
+        type: "p",
+        html: "— What does receiving the Global Entrepreneur & Innovator Awards mean to you?",
+      },
+      {
+        type: "p",
+        html: "For me, it is, first and foremost, recognition that a systematic approach to business development, strategic management, and long-term thinking truly matter. It is especially valuable that the participants’ achievements were evaluated by an International Jury composed of experts from different countries and professional fields. This independent assessment gives the award particular significance and makes it an important professional achievement.",
+      },
+      {
+        type: "p",
+        html: "— What areas will the company focus on in the coming years?",
+      },
+      {
+        type: "p",
+        html: "We will continue expanding our international presence, investing in the digital transformation of our operations, improving supply chain management, and introducing advanced performance-analysis tools. Today, the competitiveness of an international company is determined not only by the scale of its business, but also by its ability to continuously improve processes, adapt quickly to change, and build a sustainable management system focused on long-term development.",
+      },
+      {
+        type: "p",
+        html: "Entrepreneur of the Year Award",
+      },
+      {
+        type: "personProfile",
+        media: { src: nargizAliyeva, alt: "Nargiz Aliyeva (Azerbaijan)" },
+        heading: "Nargiz Aliyeva (Azerbaijan)",
+        subheading: "Founder & Chief Executive Officer (CEO), Caspian Market Innovations",
+      },
+      {
+        type: "p",
+        html: "— Nargiz, congratulations on receiving the Entrepreneur of the Year Award. What aspects of your project do you believe the International Jury particularly recognized?",
+      },
+      {
+        type: "p",
+        html: "Thank you. I believe the Jury primarily recognized our ability to create new market opportunities rather than simply introduce another product. We worked to establish a new market category by combining modern digital solutions with the needs of the B2B sector. To me, entrepreneurship is not only about creating a company, but also about recognizing potential where others have yet to see it. We consistently developed the product, tested market demand, adapted the business model, and demonstrated that it could operate successfully across different markets. I believe it was this combination of an innovative approach and practical results that the International Jury recognized.",
+      },
+      {
+        type: "p",
+        html: "— Creating a new idea is only the beginning. What proved to be the most difficult part of developing the company?",
+      },
+      {
+        type: "p",
+        html: "The greatest challenge was transforming a promising concept into a sustainable business model. Every innovation must be tested by the market, earn the trust of customers, and demonstrate its effectiveness under real-world conditions. We devoted considerable attention to product development, collaboration with partners, analysis of feedback, and the continuous improvement of our solutions. Once the first successful results had been achieved, the next stage was scaling the business and entering new markets. This process requires not only entrepreneurial intuition, but also a systematic approach to management.",
+      },
+      {
+        type: "p",
+        html: "— What does receiving the Global Entrepreneur & Innovator Awards mean to you?",
+      },
+      {
+        type: "p",
+        html: "For me, this award is recognition that entrepreneurship is, above all, the ability to create long-term value. It is especially important that the assessment was made by an independent International Jury composed of professionals with extensive experience in business, investment, technology, and management. This recognition inspires us to continue working on new projects and moving forward.",
+      },
+      {
+        type: "p",
+        html: "— What goals have you set for yourself and your company in the coming years?",
+      },
+      {
+        type: "p",
+        html: "We will continue developing our digital solutions, expanding international cooperation, and entering new markets. The pace of change in business today is extremely rapid, which means that entrepreneurs must not only respond to existing trends, but also create new directions for development. I am convinced that innovation, strategic thinking, and a commitment to continuous growth are what enable companies to shape the future of their industries.",
+      },
+      {
+        type: "p",
+        html: "Excellence in Business Development Award",
+      },
+      {
+        type: "personProfile",
+        media: { src: fatimaAlMansoori, alt: "Fatima Al-Mansoori (UAE)" },
+        heading: "Fatima Al-Mansoori (UAE)",
+        subheading: "Director of Strategic Partnerships & Growth, GulfBridge Ventures & Platforms",
+      },
+      {
+        type: "p",
+        html: "— Fatima, congratulations on receiving the Excellence in Business Development Award. Which achievements, in your opinion, were decisive in the International Jury’s evaluation?",
+      },
+      {
+        type: "p",
+        html: "Thank you very much. I believe the Jury primarily recognized our approach to business development through strategic partnerships. We did not simply enter into agreements; our objective was to create long-term alliances that open new avenues for growth and generate real value for all parties involved. Over the past several years, we succeeded in building a partnership ecosystem that brought together companies from different industries, implementing joint projects, and launching new business areas. In my view, it was our ability to transform strategic ideas into measurable commercial results that was highly recognized by the International Jury.",
+      },
+      {
+        type: "p",
+        html: "— What is the most important factor in building successful international partnerships?",
+      },
+      {
+        type: "p",
+        html: "Every successful partnership begins with trust and a shared understanding of objectives. However, that alone is not enough. It is equally important to establish a transparent framework for cooperation, define areas of responsibility, develop clear performance indicators, and maintain continuous communication among all project participants. We always view partnerships as long-term investments, which is why we place particular emphasis on the sustainability of the joint model, its effectiveness, and its potential for further development.",
+      },
+      {
+        type: "p",
+        html: "— What does receiving the Global Entrepreneur & Innovator Awards mean to you?",
+      },
+      {
+        type: "p",
+        html: "For me, it is recognition that business development today is impossible without effective international cooperation. It is especially gratifying that our work was evaluated by an International Jury composed of experts with extensive experience in management, investment, technology, and corporate development. This recognition confirms that our approach to building partnership ecosystems is consistent with high international standards.",
+      },
+      {
+        type: "p",
+        html: "— Which areas of development do you consider the most promising in the coming years?",
+      },
+      {
+        type: "p",
+        html: "I am convinced that the future belongs to companies capable of combining the expertise, technologies, and resources of different organizations. Partnership ecosystems are becoming one of the key drivers of sustainable business growth. We will continue developing international alliances, supporting the launch of new projects, and creating conditions in which cooperation becomes a source of innovation, commercial growth, and long-term business development.",
+      },
+      {
+        type: "p",
+        html: "Outstanding Industry Achievement Award",
+      },
+      {
+        type: "personProfile",
+        media: { src: sergiyKukhilava, alt: "Sergiy Kukhilava (Ukraine), GEIA 2021 Outstanding Industry Achievement Award winner" },
+        heading: "Sergiy Kukhilava (Ukraine)",
+        subheading: "Founder & Chief Executive Officer (CEO), Kukhilava Restaurant Group",
+      },
+      {
+        type: "p",
+        html: "— Sergiy, congratulations on receiving the Outstanding Industry Achievement Award. Which achievements, in your opinion, were decisive in the International Jury’s evaluation?",
+      },
+      {
+        type: "p",
+        html: "Thank you. I believe the decisive factor was that our development did not remain merely an idea or an experimental project. We succeeded in creating a technology that was implemented in practice and proved its effectiveness in the real-world operations of food service establishments. We integrated RFID technologies, predictive analytics algorithms, and automated inventory management into a single system that makes it possible to monitor product freshness, reduce food waste, and significantly improve operational efficiency. It is especially important to me that the International Jury recognized not only the innovative nature of the technology itself, but also its practical value, measurable results, and potential for application throughout the restaurant industry.",
+      },
+      {
+        type: "p",
+        html: "— Your development addresses several highly relevant areas at once: the digital transformation of the restaurant business, improved management efficiency, and the reduction of food waste. How did the idea for this technology originate?",
+      },
+      {
+        type: "p",
+        html: "For many years, I was personally involved in developing restaurant businesses and encountered challenges on a daily basis that were common to virtually every company in the industry: product quality control, inventory management, loss reduction, and improved employee efficiency. This practical experience made it clear that these processes required a fundamentally new technological approach. That is how the idea emerged to create an intelligent system that would not merely record information, but would also support management decision-making based on real-time data analysis. It was important to me to develop a solution that would deliver practical benefits not only to one company, but would also be relevant to the industry as a whole.",
+      },
+      {
+        type: "p",
+        html: "— What does receiving the Global Entrepreneur & Innovator Awards mean to you personally?",
+      },
+      {
+        type: "p",
+        html: "Every professional award is valuable, but it becomes especially significant when it is conferred by an independent International Jury composed of experts from different countries and diverse fields of business, technology, and management. For me, this award confirmed that the technology we developed is of interest not only at the national level, but is also regarded by the international professional community as a solution capable of contributing to the advancement of the modern restaurant industry. Such recognition inspires me to continue working on new projects and further improving the technology.",
+      },
+      {
+        type: "p",
+        html: "— Which areas of development do you consider the most promising for the restaurant industry in the coming years?",
+      },
+      {
+        type: "p",
+        html: "I am convinced that the future of the industry is connected with intelligent management systems that enable data-driven decision-making, automate product quality control, and support the efficient use of resources. Today, restaurants compete not only on the quality of their cuisine and level of service, but also on the efficiency of their internal processes. For this reason, digital technologies, artificial intelligence, predictive analytics, and automation will play an increasingly important role in the development of the industry. Our goal is to continue creating solutions that help food service establishments operate more efficiently, reduce food waste, and establish new management standards in the restaurant business.",
+      },
+      {
+        type: "p",
+        html: "Strategic Vision Award",
+      },
+      {
+        type: "personProfile",
+        media: { src: mateuszKowalski, alt: "Mateusz Kowalski (Poland)" },
+        heading: "Mateusz Kowalski (Poland)",
+        subheading: "Chief Strategy & Scaling Officer, Vistula Growth Technologies",
+      },
+      {
+        type: "p",
+        html: "— Mateusz, congratulations on receiving the Strategic Vision Award. Which results, in your opinion, did the International Jury consider the most significant?",
+      },
+      {
+        type: "p",
+        html: "Thank you very much. I believe the principal factor was our ability to transform strategy from a theoretical document into a practical instrument for business development. We developed a comprehensive scaling model that enabled the company to improve operational efficiency, optimize internal processes, and achieve sustainable growth. It was especially important that every strategic decision was supported by specific, measurable results. Most likely, it was this ability to combine long-term strategic vision with successful practical implementation that was highly recognized by the International Jury.",
+      },
+      {
+        type: "p",
+        html: "— Many companies develop strategies, but not all of them succeed in implementing those strategies in practice. In your opinion, what is the principal secret of successful scaling?",
+      },
+      {
+        type: "p",
+        html: "I am convinced that an effective strategy must be clear, measurable, and achievable. Defining objectives is not enough; it is necessary to create a management system that makes it possible to progress consistently through every stage of development. We devoted considerable attention to project prioritization, resource allocation, KPI implementation, and the continuous analysis of results. This approach enables strategy to function not only at the executive level, but also in the day-to-day operations of the entire organization.",
+      },
+      {
+        type: "p",
+        html: "— What does receiving the Global Entrepreneur & Innovator Awards mean to you personally?",
+      },
+      {
+        type: "p",
+        html: "For me, it is a great honor and, at the same time, confirmation that modern strategic management plays an important role in the development of international business. It is especially valuable that the participants’ achievements were evaluated by an independent International Jury composed of experts from different countries and diverse professional fields. Such recognition demonstrates that effective business management and scaling models are significant not only for one company, but are also of interest to the international professional community.",
+      },
+      {
+        type: "p",
+        html: "— How do you see strategic management developing in the coming years?",
+      },
+      {
+        type: "p",
+        html: "Business is evolving today much faster than ever before, which means that strategy must not be a static document, but rather a flexible management system capable of adapting to market changes. I believe that digital analytical tools, data-driven management, and the integration of strategic planning with a company’s operational activities will become particularly important in the future. This approach enables organizations not merely to respond to change, but to build sustainable competitive advantages and ensure long-term development.",
+      },
+      {
+        type: "p",
+        html: "Innovation Achievement Award",
+      },
+      {
+        type: "personProfile",
+        media: { src: choiMinHo, alt: "Choi Min-ho (South Korea)" },
+        heading: "Choi Min-ho (South Korea)",
+        subheading: "Founder & Chief Technology Officer (CTO), SeoulNova Systems",
+      },
+      {
+        type: "p",
+        html: "— Choi, congratulations on receiving the Innovation Achievement Award. Which achievements, in your opinion, were decisive in the International Jury’s evaluation?",
+      },
+      {
+        type: "p",
+        html: "Thank you very much. I believe the International Jury primarily recognized that our technology demonstrated its effectiveness not only during the development stage, but also under real-world operating conditions. We placed particular emphasis on ensuring that every technological solution produced measurable results: improving process efficiency, reducing costs, and helping companies make better-informed management decisions. It is especially important to me that the Jury recognized not only the innovative nature of the development itself, but also its successful transition from a pilot project to large-scale implementation, as well as the technology’s ability to operate effectively under different conditions.",
+      },
+      {
+        type: "p",
+        html: "— Many promising technologies never advance beyond the pilot-project stage. What enabled your development to achieve broad practical application?",
+      },
+      {
+        type: "p",
+        html: "From the outset, we created a solution focused on the real needs of businesses. We worked closely with clients, continuously analyzed implementation results, and improved the system on the basis of practical experience. This approach enabled us not only to demonstrate the technology’s effectiveness, but also to ensure its successful integration into a variety of business processes. I am convinced that true innovation emerges when a technology delivers measurable value and can be successfully scaled.",
+      },
+      {
+        type: "p",
+        html: "— What does receiving the Global Entrepreneur & Innovator Awards mean to you?",
+      },
+      {
+        type: "p",
+        html: "For me, it represents highly significant professional recognition. It is especially valuable that our work was evaluated by an independent International Jury composed of experts from different countries and diverse industries. Such recognition demonstrates that the technology we developed is of interest not only to individual companies, but also to the international professional community, which evaluates innovation on the basis of its practical value, effectiveness, and potential for further development.",
+      },
+      {
+        type: "p",
+        html: "— What do you see as the principal directions for the development of technological innovation in the coming years?",
+      },
+      {
+        type: "p",
+        html: "I am convinced that the future belongs to intelligent digital platforms capable of integrating data analytics, process automation, and advanced artificial intelligence technologies into a unified ecosystem. Solutions that enable organizations to make faster decisions, improve productivity, and adapt more effectively to changing market conditions will become increasingly important. We will continue developing technologies focused on delivering practical results, scalability, and long-term business value, thereby contributing to the continued advancement of modern digital industries.",
+      },
+      {
+        type: "p",
+        html: "Each winner was recognized for achievements that had a measurable impact on the development of their respective industry, the implementation of innovative solutions, the advancement of management practices, and the creation of sustainable value for both business and the professional community.",
+      },
+      {
+        type: "p",
+        html: "In congratulating the recipients of the Global Entrepreneur & Innovator Awards 2021, the Organizing Committee noted that their achievements reflect the evolving trends of the global economy and demonstrate an exceptional level of professional leadership, innovative thinking, and the successful implementation of projects capable of shaping the future of their respective industries.",
+      },
+      {
+        type: "p",
+        html: "The Global Entrepreneur & Innovator Awards continues to fulfill its core mission of identifying and recognizing leaders whose ideas, technologies, and management solutions create a lasting impact on the advancement of international business, the innovation-driven economy, and the global entrepreneurial community.",
+      },
     ],
   },
 

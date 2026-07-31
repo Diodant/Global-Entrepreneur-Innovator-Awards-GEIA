@@ -75,32 +75,24 @@ export default function GEIAPage() {
             ) : (
               <>
                 <p>
-                  The Global Entrepreneur & Innovator Awards (GEIA) was established, curated, and conducted under the
-                  highest leadership and auspices of the International Chamber of Commerce (ICC) in a hybrid format —
-                  both offline and online.
+                  Global Entrepreneur & Innovator Awards (GEIA) is an international award established in 2018 to identify, recognize, and honor outstanding entrepreneurs, executives, scientists, innovators, inventors, and business leaders whose professional achievements contribute to the advancement of the global economy, technological innovation, entrepreneurship, and international cooperation.
                 </p>
                 <p>
-                  The highest international award given to entrepreneurs and innovators whose outstanding achievements
-                  and leadership have a transformative impact on the global economy.
+                  The mission of the Award is to recognize individuals who not only achieve exceptional success in their professional fields but also shape the future of their industries through innovation, strategic leadership, the implementation of advanced technologies, the creation of new business models, and the advancement of modern standards of business practice.
                 </p>
                 <p>
-                  The Global Entrepreneur & Innovator Awards (GEIA) is established, curated, and conducted under the
-                  highest leadership and auspices of the International Chamber of Commerce (ICC).
+                  Since its inception, the Global Entrepreneur & Innovator Awards has annually brought together representatives of the business, scientific, and innovation communities from a broad range of industries. The Award serves as an international platform for recognizing professional excellence, leadership, and achievements that have a lasting impact on business, industry, science, technology, the digital economy, and international cooperation.
                 </p>
                 <p>
-                  The International Chamber of Commerce (ICC) is the oldest, largest, and most authoritative global
-                  business organization, founded in 1919. Its mission is to serve the global business community by
-                  advocating for the private sector’s interests and establishing international standards of business
-                  practice. The ICC holds a unique status as an observer organization at the United Nations General
-                  Assembly and maintains working relationships with key institutions, including the World Trade
-                  Organization (WTO) and the Group of Twenty (G20).
+The Award is organized by the Russian National Committee of the International Chamber of Commerce – World Business Organization (ICC Russia), the official national committee of the International Chamber of Commerce (ICC) representing the ICC in the Russian Federation. As part of the ICC's global network of national committees, ICC Russia promoted international entrepreneurship, the adoption of internationally recognized business standards, innovation, and cross-border economic cooperation.
                 </p>
                 <p>
-                  The ICC represents the interests of more than 45 million companies from a wide range of industries
-                  worldwide, with official national committees and offices in over 170 countries. The ICC’s expert
-                  network includes thousands of leading specialists from the corporate sector, law, and academia, who
-                  jointly develop international business rules (e.g., Incoterms, ICC Arbitration Rules).
+The International Chamber of Commerce (ICC), also known as the World Business Organization, is one of the world's oldest and most influential organizations representing the interests of the global business community. Founded in 1919, the ICC brings together more than 45 million companies, entrepreneurs, and business organizations across more than 170 countries and territories through its worldwide network of official national committees and representative offices.
                 </p>
+                <p>For more than a century, the ICC has played a leading role in the development of international trade and the global business environment by establishing and maintaining internationally recognized commercial standards. The organization is the creator of the globally recognized Incoterms® Rules, the ICC Arbitration Rules, the Uniform Customs and Practice for Documentary Credits (UCP 600), and numerous other international instruments widely used by businesses, financial institutions, and the legal community worldwide. The ICC holds Observer Status with the United Nations General Assembly and works closely with leading international organizations, including the World Trade Organization (WTO), the Group of Twenty (G20), the World Bank, and the International Monetary Fund (IMF).</p>
+                <p>The Global Entrepreneur & Innovator Awards recognizes achievements that have a measurable impact on the advancement of the economy, industry, science, technology, education, innovation, and international business. The Award brings together professionals whose projects, inventions, research, and leadership contribute to sustainable industry development, improved business performance, and the implementation of innovative solutions.</p>
+                <p>Award nominations are evaluated by an independent panel of experts based on the nominees' professional accomplishments, the level of innovation demonstrated by their projects, the scope of their practical impact, leadership qualities, contributions to the advancement of their industries, and the broader public significance of their achievements. Particular emphasis is placed on initiatives that demonstrate long-term impact, exceptional professional excellence, and a meaningful contribution to the development of international business cooperation.</p>
+
               </>
             )}
           </div>

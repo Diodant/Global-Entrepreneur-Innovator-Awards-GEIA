@@ -1,0 +1,6 @@
+@media print {
+  /* The legacy print stylesheet appends href values to every link. */
+  a[href]::after {
+    content: none !important;
+  }
+}
